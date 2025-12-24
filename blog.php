@@ -20,9 +20,9 @@
     <!-- ===== Breadcrumb Hero (bc01) ===== -->
     <div class="img-breadcum">
       <div class="container">
-        <img src="https://media.istockphoto.com/id/1006169700/photo/repairman-checking-voltage-with-digital-multimeter.jpg?s=612x612&w=0&k=20&c=XsSFNl68i6oTtSQQNo3K2Zur2TGuS5CZL233pSZa4rE=" title="About Us" alt="About Us" />
-        <div class="sub-tt">ESD Products and SMT Consumables Supplier in India</div>
-        <div class="tt">ESD Products supplier in India</div>
+        <img src="https://media.istockphoto.com/id/2217250788/photo/ai-agent-and-generative-artificial-intelligence-concept-businessman-using-ai-agents-on-screen.jpg?s=612x612&w=0&k=20&c=77b8C5pC-41mlBMuLRK7EQwTIiVbAIaTXYOgMXwdYDU=" title="About Us" alt="About Us" />
+        <div class="sub-tt">SS Electronics in India</div>
+        <div class="tt">SS Electronics in India</div>
       </div>
     </div>
     <div class="breadcum-sec">
@@ -39,253 +39,191 @@
 
       <div class="container">
 
-        <div class="text-center wow fadeInUp animated" data-wow-delay=".1s">
-
-          <div class="eyebrow-section">NEWS AND MEDIA</div>
-
-          <div class="section-title">Latest From <span class="colordhead">Blogs</span> </div>
-
-        </div>
-
+        <div class="col-lg-8">
+                        <div class="eyebrow-section">
+                            <p>Our Latest Blogs</p>
+                        </div>
+                        <!-- Using leadsureheading but mapped to larger var for hero -->
+                        <div class="section-title">Transforming Energy for Tomorrow</div>
+                        
+                    </div>
 
 
         <div class="row g-2 g-md-4 wow fadeInRight animated" data-wow-delay=".2s">
 
-  
+
 
 
           <div class="col-lg-8">
-            
-         <div class="row g-2 g-md-3"> 
-            <div class="col-lg-6 col-6">
 
-              <div class="blog-card">
+            <div class="row g-2 g-md-3">
+              <div class="col-lg-6 col-6">
 
-                <div class="card-img-wrapper">
+                <a href="blog_detail.php" class="card-anchor">
+                  <div class="card-img-wrapper">
+                    <!-- Date Badge -->
+                    <div class="date-badge">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-check" viewBox="0 0 16 16">
+                        <path d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0" />
+                        <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z" />
+                      </svg> Oct 24, 2023
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?q=80&w=2070&auto=format&fit=crop" alt="Project 1">
+                    <!-- Overlay -->
+                    <div class="card-overlay">
 
-                  <a href="blog_detail.php"
-                    title="Top Hospital Equipment Every Modern Healthcare Facility Needs">
-
-                    <img src="https://media.istockphoto.com/id/540221478/photo/laptop-and-work-tools-over-architectural-blueprints-on-wooden-table.jpg?s=612x612&w=0&k=20&c=rstHDnswKSvYMXyn2vrwMhktP-fDMOJUabmZauXC4_k=" alt="Top Hospital Equipment Every Modern Healthcare Facility Needs"
-                      title="Top Hospital Equipment Every Modern Healthcare Facility Needs"
-
-                      class="card-img-top">
-
-                  </a>
-
-                  <div class="date-badge"><span>11</span>SEP 25</div>
-
-                </div>
-
-
-
-                <div class="blog-card-body">
-
-                  <div class="card-title-wrapper">
-
-                    <a href="#"
-                      title="Top Hospital Equipment Every Modern Healthcare Facility Needs" class="card-title">
-
-                      electronics manufacturing units and R&D labs to service centers and production
-                    </a>
-
+                    </div>
                   </div>
-
-
-                  <div>
-
-                    <a href="#"
-                      title="Read More" class="main-btn">Read More <span>&rarr;</span></a>
-
+                  <div class="card-body-custom">
+                    <!-- Title -->
+                    <div class="lead1">Solar Grid Expansion</div>
+                    <!-- Description -->
+                    <div class="lead3">
+                      Implementing a large-scale solar grid infrastructure to support over 500 residential homes in the valley area. This project reduces carbon footprint.
+                    </div>
+                    <!-- Read More -->
+                    <div class="read-more-btnX">
+                      Read More <i class="fas fa-arrow-right"></i>
+                    </div>
                   </div>
+                </a>
 
-                </div>
+
 
               </div>
 
+              <div class="col-lg-6 col-6">
 
+                <a href="#" class="card-anchor">
+                  <div class="card-img-wrapper">
+                    <!-- Date Badge -->
+                    <div class="date-badge">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-check" viewBox="0 0 16 16">
+                        <path d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0" />
+                        <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z" />
+                      </svg> Oct 24, 2023
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?q=80&w=2070&auto=format&fit=crop" alt="Project 1">
+                    <!-- Overlay -->
+                    <div class="card-overlay">
 
-            </div>
-
-            <div class="col-lg-6 col-6">
-
-              <div class="blog-card">
-
-                <div class="card-img-wrapper">
-
-                  <a href="#"
-                    title="How Medicaid is Revolutionizing Neonatal Care Equipment">
-
-                    <img src="https://media.istockphoto.com/id/540221478/photo/laptop-and-work-tools-over-architectural-blueprints-on-wooden-table.jpg?s=612x612&w=0&k=20&c=rstHDnswKSvYMXyn2vrwMhktP-fDMOJUabmZauXC4_k=" alt="How Medicaid is Revolutionizing Neonatal Care Equipment"
-                      title="How Medicaid is Revolutionizing Neonatal Care Equipment"
-
-                      class="card-img-top">
-
-                  </a>
-
-                  <div class="date-badge"><span>10</span>JUL 25</div>
-
-                </div>
-
-
-
-                <div class="blog-card-body">
-
-                  <div class="card-title-wrapper">
-
-                    <a href="#"
-                      title="How Medicaid is Revolutionizing Neonatal Care Equipment" class="card-title">
-
-                      electronics manufacturing units and R&D labs to service centers and production
-                    </a>
-
+                    </div>
                   </div>
-
-
-
-                  <div>
-
-                    <a href="#"
-                      title="Read More" class="main-btn">Read More <span>&rarr;</span></a>
-
+                  <div class="card-body-custom">
+                    <!-- Title -->
+                    <div class="lead1">Solar Grid Expansion</div>
+                    <!-- Description -->
+                    <div class="lead3">
+                      Implementing a large-scale solar grid infrastructure to support over 500 residential homes in the valley area. This project reduces carbon footprint.
+                    </div>
+                    <!-- Read More -->
+                    <div class="read-more-btnX">
+                      Read More <i class="fas fa-arrow-right"></i>
+                    </div>
                   </div>
+                </a>
 
-                </div>
+
 
               </div>
 
+              <div class="col-lg-6 col-6">
 
+                <a href="#" class="card-anchor">
+                  <div class="card-img-wrapper">
+                    <!-- Date Badge -->
+                    <div class="date-badge">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-check" viewBox="0 0 16 16">
+                        <path d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0" />
+                        <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z" />
+                      </svg> Oct 24, 2023
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?q=80&w=2070&auto=format&fit=crop" alt="Project 1">
+                    <!-- Overlay -->
+                    <div class="card-overlay">
 
-            </div>
-
-               <div class="col-lg-6 col-6">
-
-              <div class="blog-card">
-
-                <div class="card-img-wrapper">
-
-                  <a href="#"
-                    title="How Medicaid is Revolutionizing Neonatal Care Equipment">
-
-                    <img src="https://media.istockphoto.com/id/540221478/photo/laptop-and-work-tools-over-architectural-blueprints-on-wooden-table.jpg?s=612x612&w=0&k=20&c=rstHDnswKSvYMXyn2vrwMhktP-fDMOJUabmZauXC4_k=" alt="How Medicaid is Revolutionizing Neonatal Care Equipment"
-                      title="How Medicaid is Revolutionizing Neonatal Care Equipment"
-
-                      class="card-img-top">
-
-                  </a>
-
-                  <div class="date-badge"><span>10</span>JUL 25</div>
-
-                </div>
-
-
-
-                <div class="blog-card-body">
-
-                  <div class="card-title-wrapper">
-
-                    <a href="#"
-                      title="How Medicaid is Revolutionizing Neonatal Care Equipment" class="card-title">
-
-                      electronics manufacturing units and R&D labs to service centers and production
-                    </a>
-
+                    </div>
                   </div>
-
-
-
-                  <div>
-
-                    <a href="#"
-                      title="Read More" class="main-btn">Read More <span>&rarr;</span></a>
-
+                  <div class="card-body-custom">
+                    <!-- Title -->
+                    <div class="lead1">Solar Grid Expansion</div>
+                    <!-- Description -->
+                    <div class="lead3">
+                      Implementing a large-scale solar grid infrastructure to support over 500 residential homes in the valley area. This project reduces carbon footprint.
+                    </div>
+                    <!-- Read More -->
+                    <div class="read-more-btnX">
+                      Read More <i class="fas fa-arrow-right"></i>
+                    </div>
                   </div>
+                </a>
 
-                </div>
+
 
               </div>
 
+              <div class="col-lg-6 col-6">
 
+                <a href="#" class="card-anchor">
+                  <div class="card-img-wrapper">
+                    <!-- Date Badge -->
+                    <div class="date-badge">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-check" viewBox="0 0 16 16">
+                        <path d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0" />
+                        <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z" />
+                      </svg> Oct 24, 2023
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?q=80&w=2070&auto=format&fit=crop" alt="Project 1">
+                    <!-- Overlay -->
+                    <div class="card-overlay">
 
-            </div>
-
-            <div class="col-lg-6 col-6">
-
-              <div class="blog-card">
-
-                <div class="card-img-wrapper">
-
-                  <a href="#"
-                    title="Choosing the Right Medical Equipment Manufacturer">
-
-                    <img src="https://media.istockphoto.com/id/540221478/photo/laptop-and-work-tools-over-architectural-blueprints-on-wooden-table.jpg?s=612x612&w=0&k=20&c=rstHDnswKSvYMXyn2vrwMhktP-fDMOJUabmZauXC4_k=" alt="Choosing the Right Medical Equipment Manufacturer"
-                      title="Choosing the Right Medical Equipment Manufacturer"
-
-                      class="card-img-top">
-
-                  </a>
-
-                  <div class="date-badge"><span>20</span>JUN 25</div>
-
-                </div>
-
-
-
-                <div class="blog-card-body">
-
-                  <div class="card-title-wrapper">
-
-                    <a href="#"
-                      title="Choosing the Right Medical Equipment Manufacturer" class="card-title">
-
-                      electronics manufacturing units and R&D labs to service centers and production
-                    </a>
-
+                    </div>
                   </div>
-
-
-                  <div>
-
-                    <a href="#"
-                      title="Read More" class="main-btn">Read More <span>&rarr;</span></a>
-
+                  <div class="card-body-custom">
+                    <!-- Title -->
+                    <div class="lead1">Solar Grid Expansion</div>
+                    <!-- Description -->
+                    <div class="lead3">
+                      Implementing a large-scale solar grid infrastructure to support over 500 residential homes in the valley area. This project reduces carbon footprint.
+                    </div>
+                    <!-- Read More -->
+                    <div class="read-more-btnX">
+                      Read More <i class="fas fa-arrow-right"></i>
+                    </div>
                   </div>
-
-                </div>
-
+                </a>
               </div>
-            </div>
             </div>
           </div>
-        
+
 
           <div class="col-lg-4">
 
             <aside class="sidebar105 wow fadeInRight" data-wow-delay=".2s">
               <div class="widget105">
-                <div class="widget-title105">Latest Products</div>
+                <div class="widget-title105">Blogs categories</div>
                 <ul class="related-blogs-list105">
                   <li class="related-post-item105">
                     <a href="#" class="category-item-link w-100">
-                      <span class="cat-name">Pneumatic Screw Driver Drebon</span>
+                      <span class="cat-name">lorem ipsum set bound</span>
                     </a>
                   </li>
 
                   <li class="related-post-item105">
                     <a href="#" class="category-item-link w-100">
-                      <span class="cat-name">Magnifying Lamp</span>
+                      <span class="cat-name">lorem ipsum set bound </span>
                     </a>
                   </li>
 
                   <li class="related-post-item105">
                     <a href="#" class="category-item-link w-100">
-                      <span class="cat-name">Stencil Cleaning Rolls</span>
+                      <span class="cat-name">lorem ipsum set bound</span>
                     </a>
                   </li>
 
                   <li class="related-post-item105">
                     <a href="#" class="category-item-link w-100">
-                      <span class="cat-name">BGA Rework Station</span>
+                      <span class="cat-name">lorem ipsum set bound</span>
                     </a>
                   </li>
 
@@ -296,67 +234,48 @@
             </aside>
 
 
-            <aside class="sidebar105 mt-5 wow fadeInRight" data-wow-delay=".2s">
-              <div class="widget105">
+           <aside class="sidebar105 mt-2 mt-md-4 wow fadeInUp" data-wow-delay=".2s">
+                            <div class="widget105">
+                                <div class="widget-title105">Related Blogs</div>
+                                <ul class="related-blogs-list105">
+                                    <li class="related-post-item105">
+                                        <img src="https://media.istockphoto.com/id/1477212725/photo/automatic-robot-for-print-circuit-board-assembly-machine-during-soldering-or-welding-part-at.jpg?s=612x612&w=0&k=20&c=9JfzhoXZE_CNAhusEVnJPJoM3iOh4RR-Zpx3OyHFp2w=" loading="lazy" decoding="async" alt="High-temperature chain oil being applied to machinery">
+                                        <div>
+                                            
 
-                <div class="contact-form">
-                  <form action="#" method="POST">
-                    <div class="row g-4">
-
-                      <!-- Full Name -->
-                      <div class="col-md-12">
-                        <label for="full-name" class="form-label">Full Name <span class="red">*</span></label>
-                        <input type="text" class="form-control" id="full-name" placeholder="Full Name">
-                      </div>
-
-                      <!-- Email Address -->
-                      <div class="col-md-12">
-                        <label for="email" class="form-label">Email Address</label>
-                        <input type="email" class="form-control" id="email" placeholder="Email Address">
-                      </div>
-
-                      <!-- Phone Number (with Country Code Plugin) -->
-                      <div class="col-md-12">
-                        <label for="phone-number" class="form-label">Phone Number <span class="red">*</span></label>
-                        <div class="phone-wrapper">
-                          <input type="hidden" name="countryCode" value="">
-                          <input type="hidden" name="countryCodeWithName" value="">
-
-                          <input type="tel" class="form-control  telePhone" name="mobile" placeholder="Mobile Number" onkeyup="this.value=this.value.replace(/[^0-9]/g,'')" minlength="9" maxlength="13" required="" autocomplete="off">
-                        </div>
-                      </div>
+                                            <div class="post-title105"><a href="#">elitsed do eiusmod tempor incididunt utlabore
+                                                </a></div>
+                                            <div>
 
 
 
+                                            </div>
 
-                      <!-- Message -->
-                      <div class="col-12">
-                        <label for="message" class="form-label">Message</label>
-                        <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
-                      </div>
-
-                      <div class="col-md-12">
-                        <div class="form-group mb-0">
-
-
-
-                          <div class="g-recaptcha" data-sitekey="6LesU8grAAAAAHh_Q_9-MR9GVAcEnfTbtlCr1gV-"></div>
+                                        </div>
+                                    </li>
+                                    <li class="related-post-item105">
+                                        <img src="https://media.istockphoto.com/id/1477212725/photo/automatic-robot-for-print-circuit-board-assembly-machine-during-soldering-or-welding-part-at.jpg?s=612x612&w=0&k=20&c=9JfzhoXZE_CNAhusEVnJPJoM3iOh4RR-Zpx3OyHFp2w=" loading="lazy" decoding="async" alt="Close-up of aft products">
+                                        <div>
+                                            <div class="post-title105"><a href="blog_detail.php">elitsed do eiusmod tempor incididunt utlabore</a></div>
+                                            
 
 
+                                        </div>
+                                    </li>
 
-                        </div>
-                      </div>
+                                    <li class="related-post-item105">
+                                        <img src="https://media.istockphoto.com/id/1477212725/photo/automatic-robot-for-print-circuit-board-assembly-machine-during-soldering-or-welding-part-at.jpg?s=612x612&w=0&k=20&c=9JfzhoXZE_CNAhusEVnJPJoM3iOh4RR-Zpx3OyHFp2w=" loading="lazy" decoding="async" alt="Close-up of aft products">
+                                        <div>
+                                            <div class="post-title105"><a href="blog_detail.php">elitsed do eiusmod tempor incididunt utlabore</a></div>
+                                            
 
-                      <!-- Submit Button -->
-                      <div class="col-12 text-end mt-2 mt-md-5">
-                        <button type="submit" class="main-btn w-100">Send Enquiry</button>
-                      </div>
-                    </div>
-                  </form>
-                </div>
 
-              </div>
-            </aside>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </aside>
+
           </div>
 
 

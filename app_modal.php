@@ -197,7 +197,7 @@
               <form id="product_pop_form" method="post">
 
                 <!-- Full Name -->
-                <div class="mb-3">
+                <div class="mb-3 mt-3">
                   <input type="text" class="form-control form-control-lg enquiry-input" placeholder="Full Name" name="name" required>
                 </div>
 

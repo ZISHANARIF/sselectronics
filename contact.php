@@ -19,12 +19,12 @@
 
         <!-- ===== Breadcrumb Hero (bc01) ===== -->
         <div class="img-breadcum">
-            <div class="container">
-                <img src="https://media.istockphoto.com/id/1006169700/photo/repairman-checking-voltage-with-digital-multimeter.jpg?s=612x612&w=0&k=20&c=XsSFNl68i6oTtSQQNo3K2Zur2TGuS5CZL233pSZa4rE=" title="About Us" alt="About Us" />
-                <div class="sub-tt">ESD Products and SMT Consumables Supplier in India</div>
-                <div class="tt">ESD Products supplier in India</div>
-            </div>
-        </div>
+      <div class="container">
+        <img src="https://media.istockphoto.com/id/2217250788/photo/ai-agent-and-generative-artificial-intelligence-concept-businessman-using-ai-agents-on-screen.jpg?s=612x612&w=0&k=20&c=77b8C5pC-41mlBMuLRK7EQwTIiVbAIaTXYOgMXwdYDU=" title="About Us" alt="About Us" />
+        <div class="sub-tt">SS Electronics in India</div>
+        <div class="tt">SS Electronics in India</div>
+      </div>
+    </div>
         <div class="breadcum-sec">
             <div class="container">
                 <ul>
@@ -41,7 +41,7 @@
         <section class="postreq  leadsure">
             <div class="container">
 
-                <div class="contact-card">
+                <div class="contact-card wow fadeInUp" data-wow-delay=".2s">
                     <div class="row g-0">
                         <!-- Left Side -->
                         <div class="col-lg-5">
@@ -61,7 +61,7 @@
                                         </div>
                                         <div class="info-content">
                                             <div class="leadsuresubheading text-light">Call Us 24/7</div>
-                                            <p class="leadsurepara text-light">+91 8048953634</p>
+                                            <p class="leadsurepara text-light">+91-9871868346</p>
                                         </div>
                                     </div>
 
@@ -74,7 +74,7 @@
                                         </div>
                                         <div class="info-content">
                                             <div class="leadsuresubheading text-light">Work with us</div>
-                                            <p class="leadsurepara text-light">info@invena.com</p>
+                                            <p class="leadsurepara text-light">info@sselectronics.in</p>
                                         </div>
                                     </div>
 
@@ -88,8 +88,7 @@
                                         </div>
                                         <div class="info-content">
                                             <div class="leadsuresubheading text-light">Our Location</div>
-                                            <p class="leadsurepara text-light">Khasra No.414, Laxman Vihar Phase-Ii Post Office Wali Gali
-                                                Gurugram - 122001, Haryana, India</p>
+                                            <p class="leadsurepara text-light">C-41 Sector 10, C Block, Sector 10, Noida, Gautam Buddha Nagar-201301, Uttar Pradesh, India</p>
                                         </div>
                                     </div>
                                 </div>
@@ -192,8 +191,9 @@
         </section>
 
         <div class="map-container-51">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7013.842246339477!2d77.0016235411122!3d28.481921983320674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d17ad434f447d%3A0x6318402da9bc97d8!2sRELIABLE%20SPARES%20AND%20CONSUMABLES!5e0!3m2!1sen!2sin!4v1764670361096!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3170.3708950036016!2d77.3300232749551!3d28.588558486077176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce455068f8b3b%3A0xdb388f1c1418a3c0!2sS%20S%20ELECTRONICS!5e1!3m2!1sen!2sin!4v1766600289602!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
 
 
 

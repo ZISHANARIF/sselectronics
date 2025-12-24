@@ -55,50 +55,81 @@ wow.init();
 
 
         // **************************faq section code*********************************************
-  document.addEventListener('DOMContentLoaded', function() {
-            const leftSection = document.getElementById('leftSection');
-            const faqItems = document.querySelectorAll('.faq-item');
-            const faqQuestions = document.querySelectorAll('.faq-question');
+  // document.addEventListener('DOMContentLoaded', function() {
+  //           const leftSection = document.getElementById('leftSection');
+  //           const faqItems = document.querySelectorAll('.faq-item');
+  //           const faqQuestions = document.querySelectorAll('.faq-question');
             
-            let openCount = 0;
-            const baseHeight = 400;
-            const expansionHeight = 80;
+  //           let openCount = 0;
+  //           const baseHeight = 400;
+  //           const expansionHeight = 80;
              
 
-            function updateLeftSectionHeight() {
-                const newHeight = baseHeight + (openCount * expansionHeight);
-                leftSection.style.minHeight = newHeight + 'px';
-            }
+  //           function updateLeftSectionHeight() {
+  //               const newHeight = baseHeight + (openCount * expansionHeight);
+  //               leftSection.style.minHeight = newHeight + 'px';
+  //           }
 
-            faqQuestions.forEach((question, index) => {
-                question.addEventListener('click', function() {
-                    const faqItem = this.parentNode;
-                    const isActive = faqItem.classList.contains('active');
+  //           faqQuestions.forEach((question, index) => {
+  //               question.addEventListener('click', function() {
+  //                   const faqItem = this.parentNode;
+  //                   const isActive = faqItem.classList.contains('active');
 
-                    // Close all other FAQ items first
-                    faqItems.forEach(item => {
-                        if (item !== faqItem && item.classList.contains('active')) {
-                            item.classList.remove('active');
-                            openCount--;
-                        }
-                    });
+                  
+  //                   faqItems.forEach(item => {
+  //                       if (item !== faqItem && item.classList.contains('active')) {
+  //                           item.classList.remove('active');
+  //                           openCount--;
+  //                       }
+  //                   });
 
-                    // Toggle current item
-                    if (isActive) {
-                        faqItem.classList.remove('active');
-                        openCount--;
-                    } else {
-                        faqItem.classList.add('active');
-                        openCount++;
-                    }
+  //                   if (isActive) {
+  //                       faqItem.classList.remove('active');
+  //                       openCount--;
+  //                   } else {
+  //                       faqItem.classList.add('active');
+  //                       openCount++;
+  //                   }
 
-                    updateLeftSectionHeight();
-                });
-            });
+  //                   updateLeftSectionHeight();
+  //               });
+  //           });
 
-            // Set initial height
-            updateLeftSectionHeight();
-        });
+  //           updateLeftSectionHeight();
+  //       });
+
+
+
+
+  // ************************swiper section code of ur partners********************************
+
+var swiper = new Swiper(".mySwiper2", {
+slidesPerView: "auto",
+  spaceBetween: 20,
+  loop: true,
+  speed: 6000, // controls continuous speed
+  allowTouchMove: false, // prevent user from stopping it
+  autoplay: {
+    delay: 0,      // no delay at all
+    disableOnInteraction: false,
+  },
+  freeMode: true,
+  freeModeMomentum: false,
+  breakpoints: {
+    640: {
+      slidesPerView: 3,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 4,
+      spaceBetween: 30,
+    },
+    1024: {
+      slidesPerView: 5,
+      spaceBetween: 20,
+    },
+  },
+});
 
 
          // *********************************************new faq section code page********************************
@@ -135,24 +166,34 @@ wow.init();
 
     // ******************************progress bar scroll top js*****************************
 
-const scrollTopBtn = document.getElementById("scrollTopBtn");
+const btn = document.getElementById("scrollTopBtn");
+const circle = document.getElementById("progressCircle");
+const circumference = 2 * Math.PI * 20;
 
-    // Show button when user scrolls down 200px
-    window.onscroll = function() {
-      if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-        scrollTopBtn.style.display = "block";
-      } else {
-        scrollTopBtn.style.display = "none";
-      }
-    };
+circle.style.strokeDasharray = circumference;
 
-    // Scroll to top smoothly
-    scrollTopBtn.onclick = function() {
-      window.scrollTo({
-        top: 0,
-        behavior: "smooth"
-      });
-    };
+window.addEventListener("scroll", () => {
+  const scrollTop = window.scrollY;
+  const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+  const scrollPercent = scrollTop / docHeight;
+
+  const offset = circumference - scrollPercent * circumference;
+  circle.style.strokeDashoffset = offset;
+
+  // Show / hide button
+  btn.style.display = scrollTop > 200 ? "block" : "none";
+});
+
+// Scroll to top
+btn.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+});
+
+// **************************star rating section code*******************************
+
 
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -272,52 +313,31 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-    var swiper = new Swiper(".mySwiper", {
-
-      // Your requested config
-
-      loop: true,
-
-      autoplay: {
-
-        delay: 3500,
-
-        disableOnInteraction: false,
-
-      },
-
-      navigation: {
-
-        nextEl: ".swiper-button-next",
-
-        prevEl: ".swiper-button-prev",
-
-      },
-
-      
-
-      // Added based on your "2 card show in one row" request
-
-      slidesPerView: 1, // 1 slide on mobile
-
-      spaceBetween: 30, // 30px gap
-
-      breakpoints: {
-
-        // when window width is >= 768px (tablets)
-
-        768: {
-
-          slidesPerView: 3, // 2 slides on desktop/tablet
-
-          spaceBetween: 40
-
-        }
-
-      }
-
-    });
-    
+var swiper = new Swiper(".mySwiper", {
+            loop: true,
+            autoplay: {
+                delay: 3500,
+                disableOnInteraction: false,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            
+            // Added based on your "2 card show in one row" request
+            slidesPerView: 1, // 1 slide on mobile
+            spaceBetween: 30, // 30px gap
+            
+            breakpoints: {
+                // when window width is >= 768px (tablets)
+                768: {
+                    // NOTE: Changed to 2 to match the SCREENSHOT exactly. 
+                    // Set to 3 if you strictly want 3 small cards.
+                    slidesPerView: 2, 
+                    spaceBetween: 40
+                }
+            }
+        });
     //******************************** */ review section code******************
 
 
@@ -489,32 +509,50 @@ document.addEventListener("DOMContentLoaded", function () {
 // ******************india map section code*******************
 // ADD YOUR CITY LIST HERE
 const citiesToHighlight = [
- { name: "India", lat: 20.5937, lng: 78.9629 },
-{ name: "United States", lat: 37.0902, lng: -95.7129 },
-{ name: "Canada", lat: 56.1304, lng: -106.3468 },
+{ name: "Andhra Pradesh", lat: 15.9129, lng: 79.7400 },
+{ name: "Arunachal Pradesh", lat: 28.2180, lng: 94.7278 },
+{ name: "Assam", lat: 26.2006, lng: 92.9376 },
+{ name: "Bihar", lat: 25.0961, lng: 85.3131 },
+{ name: "Chhattisgarh", lat: 21.2787, lng: 81.8661 },
+{ name: "Goa", lat: 15.2993, lng: 74.1240 },
+{ name: "Gujarat", lat: 22.2587, lng: 71.1924 },
+{ name: "Haryana", lat: 29.0588, lng: 76.0856 },
+{ name: "Himachal Pradesh", lat: 31.1048, lng: 77.1734 },
+{ name: "Jharkhand", lat: 23.6102, lng: 85.2799 },
+{ name: "Karnataka", lat: 15.3173, lng: 75.7139 },
+{ name: "Kerala", lat: 10.8505, lng: 76.2711 },
+{ name: "Madhya Pradesh", lat: 23.4733, lng: 77.9470 },
+{ name: "Maharashtra", lat: 19.7515, lng: 75.7139 },
+{ name: "Manipur", lat: 24.6637, lng: 93.9063 },
+{ name: "Meghalaya", lat: 25.4670, lng: 91.3662 },
+{ name: "Mizoram", lat: 23.1645, lng: 92.9376 },
+{ name: "Nagaland", lat: 26.1584, lng: 94.5624 },
+{ name: "Odisha", lat: 20.9517, lng: 85.0985 },
+{ name: "Punjab", lat: 31.1471, lng: 75.3412 },
+{ name: "Rajasthan", lat: 27.0238, lng: 74.2179 },
+{ name: "Sikkim", lat: 27.5330, lng: 88.5122 },
+{ name: "Tamil Nadu", lat: 11.1271, lng: 78.6569 },
+{ name: "Telangana", lat: 18.1124, lng: 79.0193 },
+{ name: "Tripura", lat: 23.9408, lng: 91.9882 },
+{ name: "Uttar Pradesh", lat: 26.8467, lng: 80.9462 },
+{ name: "Uttarakhand", lat: 30.0668, lng: 79.0193 },
+{ name: "West Bengal", lat: 22.9868, lng: 87.8550 },
 
-{ name: "Brazil", lat: -14.2350, lng: -51.9253 },
-{ name: "Argentina", lat: -38.4161, lng: -63.6167 },
+{ name: "Andaman and Nicobar Islands", lat: 11.7401, lng: 92.6586 },
+{ name: "Chandigarh", lat: 30.7333, lng: 76.7794 },
+{ name: "Dadra and Nagar Haveli and Daman and Diu", lat: 20.1809, lng: 73.0169 },
+{ name: "Delhi", lat: 28.6139, lng: 77.2090 },
+{ name: "Jammu and Kashmir", lat: 33.7782, lng: 76.5762 },
+{ name: "Ladakh", lat: 34.1526, lng: 77.5771 },
+{ name: "Lakshadweep", lat: 10.5680, lng: 72.6417 },
+{ name: "Puducherry", lat: 11.9416, lng: 79.8083 }
 
-{ name: "United Kingdom", lat: 55.3781, lng: -3.4360 },
-{ name: "France", lat: 46.2276, lng: 2.2137 },
-{ name: "Russia", lat: 61.5240, lng: 105.3188 },
-
-{ name: "South Africa", lat: -30.5595, lng: 22.9375 },
-{ name: "Egypt", lat: 26.8206, lng: 30.8025 },
-{ name: "Nigeria", lat: 9.0820, lng: 8.6753 },
-
-{ name: "Australia", lat: -25.2744, lng: 133.7751 },
-{ name: "New Zealand", lat: -40.9006, lng: 174.8860 },
-
-{ name: "China", lat: 35.8617, lng: 104.1954 },
-{ name: "Japan", lat: 36.2048, lng: 138.2529 },
-{ name: "Indonesia", lat: -0.7893, lng: 113.9213 },
-
-{ name: "Saudi Arabia", lat: 23.8859, lng: 45.0792 },
-{ name: "United Arab Emirates", lat: 23.4241, lng: 53.8478 },
 
 ];
+
+const isMobile = window.innerWidth <= 768;
+
+
 
 // MAP INIT WITH ALL ZOOM DISABLED
 var map = L.map('map', {
@@ -524,7 +562,7 @@ var map = L.map('map', {
   touchZoom: false,        // disables pinch zoom on mobile
   boxZoom: false,          // disables shift+drag zoom
   keyboard: false,         // disables keyboard zoom
-  dragging: true           // âœ… keep dragging enabled
+  dragging: false           // âœ… keep dragging enabled
 }).setView([22.9734, 78.6569], 5);
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {

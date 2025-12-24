@@ -3,227 +3,354 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vision & Mission Section</title>
-    <!-- Bootstrap 5 CSS -->
+    <title>Testimonial Section</title>
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Google Fonts (Manrope) -->
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
-    <!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
 
     <style>
         :root {
-            --theme-orange: #F06218;
-            --theme-dark: #161616;
-            --text-gray: #666;
-            --bg-light: #f9f9f9;
+            /* ********** USER PROVIDED VARIABLES ******************* */
+            --radius: 10px;
+            --para-size: 14px; /* Adjusted slightly for visual balance with screenshot */
+            --topbar-size: 18px;
+            --heading-size: 18px;
+            --heading2-size: 22px;
+            --heading3-size: 26px;
+            --title-size: 30px;
+            --large-text: 40px;
+            --small-text: 12px;
+
+            --primary-color: #499a7d;
+            --secondary-color: #7abda6;
+            --btn-colo2: #7abda6;
+            --btn-color: #499a7d;
+            --hover-color1: #499a7d;
+            --hover-color2: #7abda6;
+            
+            --bg1-color: #ffffff;
+            --bg2-color: #f8f8f8;
+            --white: #ffffff;
+            
+            --para-color: #5d666f;
+            --heading-color: #1c2539;
+            --dark-text: #0a0a0a;
+            
+            --hover-text: #0a0a0a;
+            --topbar-color: #ffffff;
+            --footer-color: #20282D;
+            
+            --border-light: #e0e0e0;
+            --light-color: #F2F2F2;
+            --icon-bg: #2B3440;
+
+            /* ********** NEW VARIABLES FOR SCREENSHOT MATCH (BLUE THEME) ******************* */
+            --font: 'Manrope', sans-serif;
+            --theme-blue: #0949a8;       /* Matches Contact Button */
+            --theme-light-blue: #dae6f6; /* Matches Badge BG */
+            --theme-text-blue: #0949a8;  /* Matches Badge Text */
+            --bg-section: #f5f7fa;       /* Matches Screenshot Grey BG */
+            --star-color: #e58e0a;       /* Matches Star Color */
+            --nav-bg: #cedaeb;           /* Matches Arrow Button BG */
         }
 
         body {
-            font-family: 'Manrope', sans-serif;
-            background-color: #fff;
+            font-family: var(--font);
+            background-color: var(--white);
         }
 
-        /* --- Section Styling --- */
-        .missionsection {
-            padding: 80px 0;
+        /* ********** USER PROVIDED CLASSES ******************* */
+        .leadsure {
+            padding: 56px 0;
+            background-color: var(--bg-section); /* Overridden to match screenshot exact tone */
         }
 
-        /* --- Tabs Styling --- */
-        .custom-tabs {
-            border: none;
-            margin-bottom: 30px;
-            gap: 15px; /* Spacing between buttons */
+        .eyebrow-section p {
+            display: inline-block;
+            padding: 6px 14px;
+            background-color: var(--light-color);   
+            color: var(--primary-color);              
+            font-size: var(--para-size);
+            font-weight: 600;
+            border-radius: 6px;
+            margin-bottom: 15px;
         }
 
-        .custom-tabs .nav-link {
-            border: none;
-            border-radius: 4px;
-            background-color: #f4f4f4;
-            color: var(--theme-dark);
-            font-weight: 700;
-            padding: 12px 30px;
-            transition: all 0.3s ease;
-            text-transform: uppercase;
-            font-size: 0.9rem;
-            letter-spacing: 0.5px;
+        /* Specific override for Blue Theme in Screenshot */
+        .eyebrow-section.blue-theme p {
+            background-color: var(--theme-light-blue);
+            color: var(--theme-text-blue);
         }
 
-        /* Active State (Orange) */
-        .custom-tabs .nav-link.active {
-            background-color: var(--theme-orange);
-            color: #fff;
-            box-shadow: 0 4px 15px rgba(240, 98, 24, 0.2);
-        }
-
-        .custom-tabs .nav-link:hover:not(.active) {
-            background-color: #e0e0e0;
-        }
-
-        /* --- Content Styling --- */
-        .tab-image-wrapper {
-            position: relative;
-            border-radius: 8px;
-            overflow: hidden;
-            height: 100%;
-            min-height: 400px; /* Ensure height on desktop */
-        }
-
-        .tab-image-wrapper img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            transition: transform 0.5s ease;
-        }
-
-        .tab-image-wrapper:hover img {
-            transform: scale(1.05);
-        }
-
-        .content-wrapper h3 {
-            font-weight: 800;
-            font-size: 2rem;
+        .leadsureheading {
+            font-weight: 800; /* Bolder to match screenshot */
+            font-size: 42px;  /* Increased to match screenshot scale */
+            line-height: 1.2;
+            font-family: var(--font);
+            color: var(--heading-color);
             margin-bottom: 20px;
-            color: var(--theme-dark);
         }
 
-        .content-wrapper p {
-            color: var(--text-gray);
-            line-height: 1.7;
+        .leadsurepara {
+            font-size: 16px; /* Slightly larger for readability */
+            color: var(--para-color);
+            line-height: 1.6;
+            max-width: 90%;
+            margin-bottom: 30px;
+        }
+
+        /* ********** CUSTOM COMPONENT STYLES ******************* */
+        
+        /* Contact Button */
+        .btn-theme-blue {
+            background-color: var(--theme-blue);
+            color: var(--white);
+            font-weight: 700;
+            padding: 12px 28px;
+            border-radius: 6px;
+            border: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .btn-theme-blue:hover {
+            background-color: #06367a;
+            color: var(--white);
+        }
+
+        .btn-theme-blue i {
+            font-size: 14px;
+            font-weight: 900;
+        }
+
+        /* Testimonial Card */
+        .testimonial-card {
+            background: var(--white);
+            border: none;
+            border-radius: 4px; /* Sharp corners with slight radius as per image */
+            padding: 30px;
+            height: 100%;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.03);
+        }
+
+        .star-rating {
+            color: var(--star-color);
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+
+        .testimonial-text {
+            font-size: 15px;
+            line-height: 1.6;
+            color: var(--para-color);
             margin-bottom: 25px;
         }
 
-        /* Checkmark List */
-        .feature-list {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
-
-        .feature-list li {
+        /* User Profile */
+        .user-profile {
             display: flex;
             align-items: center;
-            margin-bottom: 15px;
-            font-weight: 600;
-            color: var(--theme-dark);
+            gap: 15px;
         }
 
-        .feature-list li i {
-            color: var(--theme-orange);
-            background: rgba(240, 98, 24, 0.1);
-            width: 25px;
-            height: 25px;
+        .user-img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .user-info h5 {
+            font-size: 16px;
+            font-weight: 700;
+            color: var(--heading-color);
+            margin: 0;
+            line-height: 1.2;
+        }
+
+        .user-info span {
+            font-size: 13px;
+            color: var(--para-color);
+        }
+
+        /* Swiper Navigation Customization */
+        .swiper-controls-wrapper {
+            display: flex;
+            justify-content: flex-end; /* Align right */
+            gap: 10px;
+            margin-top: 30px;
+            padding-right: 10px;
+        }
+
+        .swiper-btn-custom {
+            position: static; /* Remove default absolute positioning */
+            width: 45px;
+            height: 45px;
+            background-color: var(--nav-bg);
+            border-radius: 4px;
             display: flex;
             align-items: center;
             justify-content: center;
-            border-radius: 50%;
-            margin-right: 15px;
-            font-size: 0.8rem;
+            cursor: pointer;
+            transition: 0.3s;
+            color: #0b3e86;
         }
 
-        /* --- Responsive Adjustments --- */
-        @media (max-width: 991px) {
-            .tab-image-wrapper {
-                min-height: 300px;
-                margin-bottom: 30px;
-            }
-            .content-wrapper h3 {
-                font-size: 1.75rem;
-            }
+        .swiper-btn-custom:hover {
+            background-color: #bbcce6;
+        }
+
+        .swiper-btn-custom::after {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        /* Swiper container padding fix */
+        .swiper {
+            padding-bottom: 10px;
         }
     </style>
 </head>
 <body>
 
-    <section class="missionsection">
+    <section class="leadsure">
         <div class="container">
-            
-            <!-- Tab Navigation Buttons -->
-            <!-- Using justify-content-center to center tabs, remove if you want left align -->
-            <div class="row justify-content-center mb-4">
-                <div class="col-lg-10">
-                    <ul class="nav nav-pills custom-tabs" id="aboutTabs" role="tablist">
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="vision-tab" data-bs-toggle="pill" data-bs-target="#vision" type="button" role="tab" aria-controls="vision" aria-selected="true">
-                                Our Vision
-                            </button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="mission-tab" data-bs-toggle="pill" data-bs-target="#mission" type="button" role="tab" aria-controls="mission" aria-selected="false">
-                                Our Mission
-                            </button>
-                        </li>
-                    </ul>
+            <div class="row align-items-center">
+                
+                <div class="col-lg-4 col-md-12 mb-5 mb-lg-0">
+                    <div class="eyebrow-section blue-theme">
+                        <p>Testimonials</p>
+                    </div>
+                    
+                    <h2 class="leadsureheading">
+                        Happy Customers <br> Stories from
+                    </h2>
+                    
+                    <p class="leadsurepara">
+                        Our team of experienced professionals is driven by a shared vision of creating a
+                    </p>
+
+                    <button class="btn btn-theme-blue">
+                        Contact Us <i class="bi bi-arrow-up-right"></i>
+                    </button>
                 </div>
-            </div>
 
-            <!-- Tab Content Area -->
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <div class="tab-content" id="aboutTabsContent">
-                        
-                        <!-- PANE 1: VISION -->
-                        <div class="tab-pane fade show active" id="vision" role="tabpanel" aria-labelledby="vision-tab">
-                            <div class="row align-items-center">
-                                <!-- Image Side -->
-                                <div class="col-lg-6">
-                                    <div class="tab-image-wrapper">
-                                        <!-- Placeholder: Vision Image -->
-                                        <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2301&auto=format&fit=crop" alt="Our Vision">
+                <div class="col-lg-8 col-md-12">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            
+                            <div class="swiper-slide">
+                                <div class="card testimonial-card">
+                                    <div class="star-rating">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
                                     </div>
-                                </div>
-                                <!-- Text Side -->
-                                <div class="col-lg-6 ps-lg-5">
-                                    <div class="content-wrapper">
-                                        <h3>Shaping the Future of Energy</h3>
-                                        <p>
-                                            Our vision is to become the global leader in sustainable electricity solutions, providing cleaner, more efficient energy to communities worldwide. We see a future where technology and nature work in harmony.
-                                        </p>
-                                        <ul class="feature-list">
-                                            <li><i class="fas fa-check"></i> Global Sustainability Leadership</li>
-                                            <li><i class="fas fa-check"></i> Innovation in Renewable Energy</li>
-                                            <li><i class="fas fa-check"></i> Zero Carbon Footprint Goal</li>
-                                        </ul>
+                                    <p class="testimonial-text">
+                                        "Discover why our customers love our electricity services Read testimonials from satisfied clients who have experienced the reliability, efficiency, and excellence"
+                                    </p>
+                                    <div class="user-profile">
+                                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="User" class="user-img">
+                                        <div class="user-info">
+                                            <h5>Richardson</h5>
+                                            <span>Team Leader</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <!-- PANE 2: MISSION -->
-                        <div class="tab-pane fade" id="mission" role="tabpanel" aria-labelledby="mission-tab">
-                            <div class="row align-items-center">
-                                <!-- Image Side (Different Image) -->
-                                <div class="col-lg-6">
-                                    <div class="tab-image-wrapper">
-                                        <!-- Placeholder: Mission Image -->
-                                        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=2671&auto=format&fit=crop" alt="Our Mission">
+                            <div class="swiper-slide">
+                                <div class="card testimonial-card">
+                                    <div class="star-rating">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
                                     </div>
-                                </div>
-                                <!-- Text Side (Different Text) -->
-                                <div class="col-lg-6 ps-lg-5">
-                                    <div class="content-wrapper">
-                                        <h3>Empowering Every Home</h3>
-                                        <p>
-                                            Our mission is to deliver reliable, affordable, and safe electricity services to every client. We are dedicated to excellent customer service, safety standards, and continuous improvement in our infrastructure.
-                                        </p>
-                                        <ul class="feature-list">
-                                            <li><i class="fas fa-check"></i> 99.9% Reliability Uptime</li>
-                                            <li><i class="fas fa-check"></i> Customer-Centric Support</li>
-                                            <li><i class="fas fa-check"></i> Affordable Energy Plans</li>
-                                        </ul>
+                                    <p class="testimonial-text">
+                                        "Discover why our customers love our electricity services Read testimonials from satisfied clients who have experienced the reliability, efficiency, and excellence"
+                                    </p>
+                                    <div class="user-profile">
+                                        <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="User" class="user-img">
+                                        <div class="user-info">
+                                            <h5>Issuant Sharma</h5>
+                                            <span>Team Leader</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
 
+                            <div class="swiper-slide">
+                                <div class="card testimonial-card">
+                                    <div class="star-rating">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
+                                    <p class="testimonial-text">
+                                        "Discover why our customers love our electricity services Read testimonials from satisfied clients who have experienced the reliability, efficiency, and excellence"
+                                    </p>
+                                    <div class="user-profile">
+                                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="User" class="user-img">
+                                        <div class="user-info">
+                                            <h5>David James</h5>
+                                            <span>Project Manager</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="swiper-controls-wrapper">
+                        <div class="swiper-button-prev swiper-btn-custom"></div>
+                        <div class="swiper-button-next swiper-btn-custom"></div>
                     </div>
                 </div>
-            </div>
 
+            </div>
         </div>
     </section>
 
-    <!-- Bootstrap 5 JS Bundle (Required for Tabs to work) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            loop: true,
+            autoplay: {
+                delay: 3500,
+                disableOnInteraction: false,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            
+            // Added based on your "2 card show in one row" request
+            slidesPerView: 1, // 1 slide on mobile
+            spaceBetween: 30, // 30px gap
+            
+            breakpoints: {
+                // when window width is >= 768px (tablets)
+                768: {
+                    // NOTE: Changed to 2 to match the SCREENSHOT exactly. 
+                    // Set to 3 if you strictly want 3 small cards.
+                    slidesPerView: 2, 
+                    spaceBetween: 40
+                }
+            }
+        });
+    </script>
 </body>
 </html>

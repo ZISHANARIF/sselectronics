@@ -1,70 +1,202 @@
 
-.postreq {
-    background-color: var(--bg1-color);
-}
-
-.contact-card {
-    background: #fff;
-    border-radius: 12px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
-    overflow: hidden;
-    width: 100%;
-}
-
-/* --- Left Side (Dark) --- */
-.contact-info-panel {
-    background-color: var(--footer-color);
-    color: #fff;
-    padding: 60px 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.info-item {
-    display: flex;
-    align-items: flex-start;
-    margin-bottom: 30px;
-}
-
-.icon-box {
-    width: 50px;
-    height: 50px;
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
-    margin-right: 20px;
-}
-
-/* --- Right Side (Form) --- */
-.contact-form-panel {
-    padding: 60px 50px;
-    background-color: var(--bg2-color);
-    box-shadow: 0 10px 30px rgba(144, 12, 12, 0.5);
-}
+        <div class="container testimonial-cards-wrapper">
 
 
 
-.map-container-51 {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    padding-top: 25%;
-}
+            <!-- Swiper -->
 
-.map-container-51 iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    border: none;
-}
+            <div class="swiper mySwiper">
+
+                <div class="swiper-wrapper">
+
+
+
+                    
+
+
+                        <div class="swiper-slide">
+
+                            <div class="review-cardB">
+
+                                <!-- <div class="leadsuresubheading">Great Business Solution</div> -->
+
+                                <p class="leadsurepara">Reliable Spares & Consumables maintains a decent range of industrial spare parts and consumables, but the name oversells the experience.</p>
+
+                                <div class="d-flex justify-content-between align-items-center">
+
+                                    <div>
+
+                                        <div class="leadsuresubheading">Roy</div>
+
+                                        <span class="leadsurepara"><strong>Finance Manager</strong></span>
+
+                                    </div>
+
+                                    <div class="unique-star-rating" data-rating="4">
+
+
+                                        <div class="unique-star-rating" data-rating="3.5">
+                                            <div class="unique-starM" data-star="1"></div>
+                                            <div class="unique-starM" data-star="2"></div>
+                                            <div class="unique-starM" data-star="3"></div>
+                                            <div class="unique-starM" data-star="4"></div>
+                                            <div class="unique-starM" data-star="5"></div>
+                                        </div>
+
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                    
+
+
+                        <div class="swiper-slide">
+
+                            <div class="review-cardB">
+
+                                <!-- <div class="leadsuresubheading">Great Business Solution</div> -->
+
+                                <p class="leadsurepara">Product specs were accurate and documentation was complete. Delivery timeline slipped by a day, but communication was transparent and material quality justified the delay.</p>
+
+                                <div class="d-flex justify-content-between align-items-center">
+
+                                    <div>
+
+                                        <div class="leadsuresubheading">Rohit Sharma</div>
+
+                                        <span class="leadsurepara"><strong>Procurement Head</strong></span>
+
+                                    </div>
+
+                                    <div class="unique-star-rating" data-rating="4">
+
+
+                                        <div class="unique-star-rating" data-rating="4">
+                                            <div class="unique-starM" data-star="1"></div>
+                                            <div class="unique-starM" data-star="2"></div>
+                                            <div class="unique-starM" data-star="3"></div>
+                                            <div class="unique-starM" data-star="4"></div>
+                                            <div class="unique-starM" data-star="5"></div>
+                                        </div>
+
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                    
+
+
+                        <div class="swiper-slide">
+
+                            <div class="review-cardB">
+
+                                <!-- <div class="leadsuresubheading">Great Business Solution</div> -->
+
+                                <p class="leadsurepara">Zero quality deviation, competitive pricing, and genuine spares. Finally found a vendor who doesn’t overpromise and disappear. Definitely continuing supply contracts.</p>
+
+                                <div class="d-flex justify-content-between align-items-center">
+
+                                    <div>
+
+                                        <div class="leadsuresubheading">Ananya Deshpande</div>
+
+                                        <span class="leadsurepara"><strong>Operations Manager</strong></span>
+
+                                    </div>
+
+                                    <div class="unique-star-rating" data-rating="4">
+
+
+                                        <div class="unique-star-rating" data-rating="4.5">
+                                            <div class="unique-starM" data-star="1"></div>
+                                            <div class="unique-starM" data-star="2"></div>
+                                            <div class="unique-starM" data-star="3"></div>
+                                            <div class="unique-starM" data-star="4"></div>
+                                            <div class="unique-starM" data-star="5"></div>
+                                        </div>
+
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                    
+
+
+                        <div class="swiper-slide">
+
+                            <div class="review-cardB">
+
+                                <!-- <div class="leadsuresubheading">Great Business Solution</div> -->
+
+                                <p class="leadsurepara">Good response time and well-packed shipment. Could improve stock availability for urgent orders, but overall reliable partner in industrial components sourcing.</p>
+
+                                <div class="d-flex justify-content-between align-items-center">
+
+                                    <div>
+
+                                        <div class="leadsuresubheading">Kunal Verma</div>
+
+                                        <span class="leadsurepara"><strong>Maintenance Supervisor</strong></span>
+
+                                    </div>
+
+                                    <div class="unique-star-rating" data-rating="4">
+
+
+                                        <div class="unique-star-rating" data-rating="4.5">
+                                            <div class="unique-starM" data-star="1"></div>
+                                            <div class="unique-starM" data-star="2"></div>
+                                            <div class="unique-starM" data-star="3"></div>
+                                            <div class="unique-starM" data-star="4"></div>
+                                            <div class="unique-starM" data-star="5"></div>
+                                        </div>
+
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                    
+
+
+                </div>
+
+
+
+            </div>
+
+
+
+        </div>
+
+
+
+
+
+
 /*************** our vision and mission section code************** */
 
 .Mission-section{
@@ -592,771 +724,15 @@ section.mission_vision .mission_vision_right .arrow svg {
 
 
 
-/* ******************************review page code section*********************** */
 
-.review-wrapper {
-  background-color: var(--bg2-color);
-}
 
-.review-card {
-  background-color: var(--bg1-color);
 
-  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
 
-  overflow: hidden;
-}
 
-.review-card__image-section {
-  padding: 0;
 
-  aspect-ratio: 1/1;
-}
 
-.review-card__image-section img {
-  width: 100%;
 
-  height: 100%;
 
-  object-fit: cover;
-}
-
-
-.review-card__form-section {
-  padding: 20px;
-}
-
-.unique-star-rating {
-  display: flex;
-
-  justify-content: flex-start;
-
-  margin-bottom: 20px;
-
-  gap: 5px;
-}
-
-.unique-star {
-  position: relative;
-
-  width: 36px;
-
-  height: 36px;
-
-  cursor: pointer;
-
-  transition: transform 0.2s ease;
-
-  user-select: none;
-}
-
-.unique-starM {
-  position: relative;
-
-  width: 36px;
-
-  height: 36px;
-
-  cursor: pointer;
-
-  transition: transform 0.2s ease;
-
-  user-select: none;
-}
-
-.unique-starM::before {
-  content: "★";
-
-  position: absolute;
-
-  top: 0;
-
-  left: 0;
-
-  width: 100%;
-
-  height: 100%;
-
-  font-size: 36px;
-
-  color: var(--border-light);
-
-  display: flex;
-
-  align-items: center;
-
-  justify-content: center;
-
-  line-height: 1;
-}
-
-.unique-star:hover {
-  transform: scale(1.15);
-}
-
-/* Empty star (default) */
-
-.unique-star::before {
-  content: "★";
-
-  position: absolute;
-
-  top: 0;
-
-  left: 0;
-
-  width: 100%;
-
-  height: 100%;
-
-  font-size: 36px;
-
-  color: var(--border-light);
-
-  display: flex;
-
-  align-items: center;
-
-  justify-content: center;
-
-  line-height: 1;
-}
-
-/* Half filled star */
-
-.unique-star.half::after {
-  content: "★";
-
-  position: absolute;
-
-  top: 0;
-
-  left: 2px;
-
-  width: 50%;
-
-  height: 100%;
-
-  font-size: 36px;
-
-  color: var(--primary-color);
-
-  overflow: hidden;
-
-  display: flex;
-
-  align-items: center;
-
-  justify-content: flex-start;
-
-  line-height: 1;
-}
-
-.review-card__form-section {
-  background-color: var(--bg2-color);
-}
-
-/* Full filled star */
-
-.unique-star.full::before {
-  color: var(--primary-color);
-}
-
-@media (max-width: 991.98px) {
-  .review-card__image-section {
-    height: 300px;
-  }
-
-  .review-card__image-section img {
-    min-height: auto;
-  }
-
-  .review-card__input-row {
-    flex-direction: column;
-  }
-}
-/* ********************why choose us section code******************** */
-
-.why-choose-us-section {
-    position: relative;
-    background: var(--dark-overlay-gradient), url('https://media.istockphoto.com/id/1347088244/photo/kerala-most-beautiful-place-of-india.jpg?s=612x612&w=0&k=20&c=oBVJ6rUfq1YOua_4Oqhj0B1TFwcMFhniaysLJEN_eh8=') no-repeat center center;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    overflow: hidden;
-}
-
-.image-wrapperA {
-    position: relative;
-    padding: 1rem;
-    border-radius: var(--radius);
-    width: 100%;
-}
-
-.image-wrapperA img {
-    aspect-ratio: 4/3;
-    width: 100%;
-    height: auto;
-    border-radius: var(--radius);
-}
-
-.image-wrapperA::before {
-    content: '';
-    position: absolute;
-    top: -10%;
-    left: -20%;
-    width: 50%;
-    height: 120%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity: 0.5;
-    z-index: -1;
-}
-
-
-.feature-boxA {
-    background-color: var(--primary-color);
-    padding: 2rem 1rem;
-    text-align: center;
-    border: 1px solid var(--primary-color);
-    border-radius: var(--radius);
-    transition: transform 0.3s ease, border-color 0.3s ease;
-    height: 100%;
-}
-
-.feature-boxA:hover {
-    transform: translateY(-8px);
-    border-color: var(--primary-color);
-    background-color: var(--hover-color2);
-}
-
-.feature-boxA svg {
-    color: var(--white);
-    margin-bottom: 1rem;
-}
-
-
-/* *********************category page section code************************** */
-.lab-section {
-    background-color: var(--bg2-color);
-}
-
-.content-section {
-    width: 100%;
-}
-
-.left-content-wrapper {
-    float: right;
-    max-width: 400px;
-    width: 100%;
-    margin-left: 1.5rem;
-    margin-bottom: 1rem;
-    /* border: 1px solid var(--secondary-color); */
-}
-
-.image-container {
-    aspect-ratio: 1/1;
-    position: relative;
-    width: 100%;
-    padding-bottom: 100%;
-    overflow: hidden;
-    border-radius: 0;
-    margin-bottom: 20px;
-}
-
-.image-container img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.product-description p,
-.product-description li,
-.product-description ul {
-    line-height: 1.6;
-    text-align: justify;
-    margin-bottom: 6px;
-}
-
-.button-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.aboutind{
-  max-height: 470px;
-  overflow: hidden;
-}
-.aboutind.expanded {
-  max-height: 3000px; /* large value to fully open */
-      overflow: unset;
-
-}
-
-.read-toggle {
-  display: inline-block;
-  color: var(--secondary-color);
-  cursor: pointer;
-  font-weight: 600;
-  margin-top: 10px;
-  user-select: none;
-}
-
-.read-toggle:hover {
-  color: var(--primary-color);
-}
-
-
-/* *******************************blog section code***************************** */
-.blog-section {
-    background-color: var(--bg2-color)
-}
-
-.blog-card {
-    background-color: var(--bg1-color);
-    border-radius: var(--radius);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
-.blog-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
-}
-
-.card-img-wrapper {
-    position: relative;
-}
-
-
-.card-img-wrapper .card-img-top {
-    width: 100%;
-    height: auto;
-    aspect-ratio: 4/3;
-    object-fit: cover;
-}
-
-.date-badge {
-    position: absolute;
-    bottom: 15px;
-    left: 15px;
-    background-color: var(--primary-color);
-    color: var(--white);
-    border-radius: var(--radius);
-    padding: 8px 10px;
-    text-align: center;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 1.1;
-}
-
-.date-badge span {
-    font-size: 18px;
-    display: block;
-}
-
-.blog-card-body {
-    padding: 25px;
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-}
-
-.card-title-wrapper {
-    margin-bottom: 0.75rem;
-}
-
-.card-title-wrapper .card-title {
-    font-size: var(--heading-size);
-    font-weight: 600;
-    color: var(--heading-color);
-    line-height: 1.3;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    margin-bottom: 1px;
-    -webkit-box-orient: vertical;
-    text-decoration: none;
-}
-
-.card-title:hover {
-    color: var(--hover-color);
-}
-
-.card-text-wrapper {
-    flex-grow: 1;
-    margin-bottom: 1rem;
-}
-
-
-/* ************************BLOG DETIL PAGE SECTION************************************ */
-.blog-section105 {
-    background-color: var(--bg2-color);
-}
-
-.main-content105 {
-    background-color: var(--bg1-color);
-    padding: 2rem;
-    border: 1px solid var(--border-color);
-}
-
-.blog-title-wrapper105 {
-    display: flex;
-    align-items: flex-start;
-    gap: 0.75rem;
-    margin-bottom: 10px;
-}
-
-.blog-title105 {
-    font-size: 2.25rem;
-    font-weight: 900;
-    color: var(--heading-color);
-}
-
-.blog-image105 {
-    width: 100%;
-    aspect-ratio: 16 / 9;
-    object-fit: cover;
-    border-radius: var(--radius);
-    margin-bottom: 2rem;
-}
-
-.post-dateX {
-    font-size: var(--para-size);
-    color: var(--secondary-color);
-
-}
-
-.sidebar105 .widget105 {
-    background-color: var(--bg1-color);
-    padding: 1.5rem;
-    border: 1px solid var(--bg2-color);
-}
-
-.widget-title105 {
-    font-size: var(--heading-size);
-    font-weight: 600;
-    color: var(--primary-color);
-    padding-bottom: 0.75rem;
-    margin-bottom: 10px;
-    border-bottom: 1px solid var(--primary-color);
-}
-
-.related-blogs-list105 {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.related-post-item105 {
-    display: flex;
-    gap: 1rem;
-}
-
-.related-post-item105:not(:last-child) {
-    margin-bottom: 1rem;
-}
-
-.related-post-item105 img {
-    aspect-ratio: 4 / 3;
-    width: 100%;
-    height: auto;
-    border-radius: var(--radius)
-}
-
-.related-post-item105 .post-title105 {
-    font-weight: 500;
-    line-height: 1.4;
-    font-size: 18px;
-
-}
-
-.related-post-item105 .post-title105 a {
-    text-decoration: none;
-    color: var(--heading-color);
-    transition: color 0.3s ease;
-}
-
-.related-post-item105 .post-title105 a:hover {
-    color: var(--hover-color1);
-}
-
-
-.category-item-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 20px;
-    border: 1px solid var(--border-color);
-    border-radius: var(--radius);
-    text-decoration: none;
-    color: var(--primary-color);
-    font-weight: 400;
-    font-size: var(--heading-size);
-    transition: all 0.3s ease;
-    background-color: var(--bg2-color);
-}
-
-.category-item-link:hover {
-
-    background-color: var(--secondary-color);
-    transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-    color: var(--light-color);
-}
-
- .blog-meta-wrapper5 {
-            width: 100%;
-            background: #fff;
-        }
-
-        /* --- Left Side: Category & Date --- */
-        .blog-cate5 {
-            padding-left: 0;
-            list-style: none;
-            display: flex;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 20px; /* Space between Category pill and Date text */
-            margin: 0;
-        }
-
-        .blog-cate5 li {
-            font-size: 15px;
-            color: var(--heading-color);
-            display: flex;
-            align-items: center;
-        }
-
-        /* 1. Category Badge (Lead Generation) */
-        .blog-cate5 li.category5 a {
-            text-decoration: none;
-            border-radius: 50px; /* Pill shape */
-            color: var(--white); /* Red Text */
-            font-weight: 500;
-            padding: 8px 20px;
-            background-color: var(--primary-color); /* Light Pink Background */
-            transition: background 0.3s;
-            display: inline-block;
-            line-height: 1;
-        }
-        
-        /* 2. Date Section */
-        .blog-cate5 li.date5 {
-            color: var(--heading-color);
-            font-weight: 400;
-        }
-
-        .blog-cate5 li.date5 b {
-           
-            margin-right: 4px;
-            margin-left: 4px;
-           
-        }
-        
-        /* The Calendar Icon */
-        .blog-cate5 li svg.bi-calendar-check {
-            color: var(--primary-color); /* Red Icon */
-            width: 18px;
-            height: 18px;
-            margin-right: 8px;
-            margin-top: -2px;
-        }
-
-        /* --- Right Side: Share Section --- */
-        .share-section5 {
-            display: inline-flex;
-            align-items: center;
-            gap: 10px;
-            color: var(--heading-color);
-            font-weight: 500;
-            font-size: 16px;
-        }
-
-        .share-section5 span {
-            margin-right: 5px;
-        }
-        .share-section5 a {
-            width: 32px;
-            height: 32px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            border-radius: 50%; 
-            text-decoration: none;
-            transition: transform 0.2s;
-        }
-
-        .share-section5 a:hover {
-            transform: translateY(-2px);
-        }
-
-        
-
-@media (max-width: 767.98px) {
-    .main-content105 {
-        padding: 1.5rem;
-    }
-}
-
-/* faq page ******************************* */
-
-.faq-section62{
-            background-color: var(--bg1-color);
-            padding: 6px 0px 56px 0px;
-        }
-        
-        /* --- Bootstrap Nav Tabs Styling --- */
-        .faq-nav-tabs {
-            border-bottom: none;
-            justify-content: center;
-        }
-        .nav-link{
-            margin-bottom: 5px;
-        }
-        .faq-nav-tabs .nav-link {
-            border: none;
-            color: var(--white);
-            background-color: var(--primary-color);
-            border-radius: var(--radius);
-            padding: 0.5rem 1.5rem;
-            font-weight: 500;
-            margin: 0.5rem;
-            transition: all 0.2s ease-in-out;
-        }
-        .faq-nav-tabs .nav-link:hover{
-            background: var(--hover-color1);
-        }
-        .faq-nav-tabs .nav-link.active {
-            color: var(--white);
-            background-color: var(--hover-color1);
-        }
-        
-        
-        .custom-accordion-item {
-           
-            
-            border-radius: 0.75rem;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.20);
-            margin-bottom: 1rem;
-            padding: 1.25rem 1.5rem;
-        }
-        .custom-accordion-question {
-            font-weight: 500;
-            color: var(--heading-color);
-            cursor: pointer;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        .custom-accordion-answer {
-            max-height: 0;
-            overflow: hidden;
-            color: var(--para-color);
-            transition: max-height 0.3s ease-in-out, padding-top 0.3s ease-in-out;
-        }
-        
-        /* Active State (Toggled by JavaScript) */
-        .custom-accordion-item.active .custom-accordion-question {
-            font-weight: 600;
-            color: var(--primary-color);
-        }
-        .custom-accordion-item.active .custom-accordion-answer {
-            max-height: 200px;
-            padding-top: 0.75rem;
-            font-size: var(--para-size);
-
-        }
-        
-        /* Plus/Minus Icon */
-        .icon-toggle {
-           width: 1.75rem;
-    height: 1.75rem;
-    background-color:var(--primary-color);  
-    color: var(--white);           
-    font-weight: bold;
-    font-size: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: var(--radius); 
-    cursor: pointer;
-        }
-        .custom-accordion-item.active .icon-toggle {
-              background-color: var(--hover-color1); 
-    background-image: none; 
-              }
-
-              .custom-accordion-item.active .icon-toggle::after {
-    content: "−";  /* minus sign */
-}
-
-/* Default state: show plus */
-.icon-toggle::after {
-    content: "+";  /* plus sign */
-}
-
-
-.faq-redesign-section {
-  background-color: var(--bg1-color);
-}
-
-.faq-nav-vertical .nav-link {
-  font-size: var(--heading-size);
-
-  font-weight: 500;
-
-  color: var(--heading-color);
-
-  padding: 1rem;
-
-  border: none;
-
-  border-top: 1px solid var(--primary-color);
-
-  border-radius: 0;
-
-  position: relative;
-
-  background: var(--bg2-color);
-
-  transition: none;
-}
-
-.faq-nav-vertical .nav-link:first-child {
-  border-top: none;
-}
-
-/* Style for the active nav link */
-
-.faq-nav-vertical .nav-link.active {
-  color: var(--primary-color);
-
-  background-color: var(--bg1-color);
-
-  border-left: 2px solid var(--primary-color);
-
-  font-weight: 600;
-
-  padding-left: 2.25rem;
-}
-
-.faq-nav-vertical .nav-link.active {
-  border-top-color: transparent;
-}
-
-.faq-tab-content {
-  background-color: var(--bg2-color);
-}
 
 /* ******************Project section code**************************************** */
 
@@ -1455,188 +831,6 @@ section.mission_vision .mission_vision_right .arrow svg {
     font-size: var(--para-size);
     font-weight: 500;
     align-self: flex-start;
-}
-
-            /*************************** privacy policy content********************** */
-
-.privacy-container {
-    background-color: var(--bg2-color);
-}
-
-
-.privacy-container a {
-    font-size: var(--para-size);
-    color: var(--primary-color);
-}
-
-.privacy-box{
-    padding: 20px;
-    background: var(--bg1-color);
-}
-
-   /* *****************************siteMap Section code**************************** */
-.sitemap-section {
-    
-    background: var(--bg2-color);
-
-}
-.sitemapbox{
-    padding: 20px;
-    background: var(--bg1-color);
-}
-.sitemap-section .sitempheading {
-    font-size: var(--heading2-size);
-    font-weight: 600;
-    margin-bottom: 20px;
-    border-bottom: 3px solid var(--secondary-color);
-    display: inline-block;
-    padding-bottom: 5px;
-    color: var(--header-color);
-}
-
-.sitemapcon {
-    list-style: none;
-    padding-left: 0;
-    margin: 0;
-    font-size: var(--para-size);
-}
-
-.sitemapcon>li {
-    position: relative;
-    margin: 10px 0;
-    padding-left: 20px;
-}
-
-.sitemapcon>li::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 8px;
-    bottom: 0;
-    border-left: 2px solid var(--primary-color);
-}
-
-.sitemapcon>li::after {
-    content: "";
-    position: absolute;
-    top: 12px;
-    left: 8px;
-    width: 10px;
-    border-top: 2px solid var(--primary-color);
-}
-
-.sitemapcon a {
-    text-decoration: none;
-    color: var(--para-color);
-    font-size: var(--para-size);
-    transition: color 0.2s;
-}
-
-.sitemapcon a:hover {
-    color: var(--hover-color1);
-    font-weight: 600;
-}
-
-.sitemapsubcat {
-    list-style: none;
-    margin: 5px 0 5px 20px;
-    padding-left: 15px;
-    border-left: 2px solid var(--secondary-color);
-}
-
-.sitemapsubcat li {
-    position: relative;
-    margin: 10px 0;
-    padding-left: 15px;
-}
-
-.sitemapsubcat li::before {
-    content: "";
-    position: absolute;
-    top: 12px;
-    left: -15px;
-    width: 15px;
-    border-top: 2px solid var(--secondary-color);
-}
-
-@media (max-width: 767px) {
-    .sitemap-section {
-        padding: 20px 10px;
-    }
-    .sitemap-section .you_may {
-        font-size: 16px;
-    }
-    .sitemapcon {
-        font-size: 13px;
-    }
-}
-
-
-/* ****************market area section code ************** */
-
-.market-area {
-    background: var(--bg2-color)
-}
-
-.Marektheading {
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.Marektheading {
-    font-size: var(--title-size);
-    font-weight: 600;
-    color: var(--heading-color);
-}
-
-.market-area h2 {
-    font-size: var(--heading2-size);
-    font-weight: 600;
-    margin: 30px 0 15px;
-    color: var(--heading-color);
-    border-left: 5px solid var(--primary-color);
-    padding-left: 10px;
-}
-
-.marketcard {
-    display: block;
-    text-align: center;
-    padding: 12px 10px;
-    border-radius: var(--radius);
-    background: var(--bg1-color);
-    box-shadow: 0 4px 10px rgba(59, 59, 59, 0.1);
-    font-size: 16px;
-    color: var(--heading-color);
-    text-decoration: none;
-    transition: all 0.3s ease;
-}
-
-.marketcard:hover {
-    color: var(--white);
-    transform: translateY(-3px);
-    background-color: var(--primary-color);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-
-/* ****************error page section code************ */
-.errorsection {
-    background-color: var(--bg1-color);
-}
-
-
-
-.error-image {
-    aspect-ratio: 2/1;
-    width: 100%;
-    overflow: hidden;
-}
-
-.error-image img {
-    aspect-ratio: 2/1;
-    width: 100%;
-    height: auto;
-    object-fit: contain;
 }
 
 

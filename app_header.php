@@ -102,154 +102,173 @@
                                 <ul class="ls-dropdown">
 
                                     <li class="ls-submenu">
-                                        <a href="#" title="BGA Rework Station">BGA Rework Station
+                                        <a href="#" title="BGA Rework Station">Meanwell
 
 
                                         </a>
                                         <ul class="ls-dropdown">
-                                            <li><a href="category.php" title="lorem ipsum">R 5860</a></li>
-                                            <li><a href="#" title="lorem ipsum">R 6860</a></li>
+                                            <li><a href="category.php" title="lorem ipsum">Meanwell Power Supply</a></li>
+                                            <li><a href="#" title="lorem ipsum">Meanwell SMPS</a></li>
+                                            <li><a href="#" title="lorem ipsum">DC To AC Converter</a></li>
+
                                         </ul>
                                     </li>
 
                                     <li class="ls-submenu">
-                                        <a href="#" title="Fume Extractor">Fume Extractor
+                                        <a href="#" title="Fume Extractor">Selec
 
 
                                         </a>
                                         <ul class="ls-dropdown">
-                                            <li><a href="category.php" title="lorem ipsum">BK 261</a></li>
-                                            <li><a href="#" title="lorem ipsum">BK 262</a></li>
+                                            <li><a href="category.php" title="lorem ipsum">Selec Temperature Controller</a></li>
+                                            <li><a href="#" title="lorem ipsum">Selec Timer</a></li>
+                                            <li><a href="category.php" title="lorem ipsum">Energy Meter</a></li>
+                                            <li><a href="#" title="lorem ipsum">Selec Counter</a></li>
+                                            <li><a href="category.php" title="lorem ipsum">Digital Voltmeter</a></li>
+                                            <li><a href="#" title="lorem ipsum">Multi Function Meter</a></li>
                                         </ul>
                                     </li>
 
                                    
 
                                     <li class="ls-submenu">
-                                        <a href="#" title="ESD Tester">ESD Tester
+                                        <a href="#" title="ESD Tester">Woer
 
 
                                         </a>
                                         <ul class="ls-dropdown">
-                                            <li><a href="" title="lorem ipsum">Surface Resistivity meter</a></li>
-                                            <li><a href="#" title="lorem ipsum">Esd Footwear and wrist band Tester</a></li>
-                                            <li><a href="" title="lorem ipsum">Human Body Voltage Checker</a></li>
-                                            <li><a href="#" title="lorem ipsum">Body static discharge dissipator</a></li>
-                                            <li><a href="#" title="lorem ipsum">Esd Pole</a></li>
+                                            <li><a href="" title="lorem ipsum">Woer Heat Shrink Sleeve</a></li>
+                                            <li><a href="#" title="lorem ipsum">Wire Sleeve</a></li>
+                                            <li><a href="" title="lorem ipsum">Heat Shrink</a></li>
+                                            <li><a href="#" title="lorem ipsum">Heat Shrink Tubing</a></li>
+                                            
 
                                         </ul>
                                     </li>
 
                                     <li class="ls-submenu">
-                                        <a href="#" title="ESD Tester">Soldering Station Bakon
-
+                                        <a href="#" title="ESD Tester">Salzer
 
                                         </a>
                                         <ul class="ls-dropdown">
-                                            <li><a href="" title="lorem ipsum">BK3300A</a></li>
-                                            <li><a href="#" title="lorem ipsum">BK1000</a></li>
-                                            <li><a href="" title="lorem ipsum">BK373</a></li>
-                                            <li><a href="#" title="lorem ipsum">SBK936</a></li>
-                                            <li><a href="#" title="lorem ipsum">BK90</a></li>
+                                            <li><a href="" title="lorem ipsum">Salzer Switches</a></li>
+                                            <li><a href="#" title="lorem ipsum">Salzer Rotary Switch</a></li>
+                                            <li><a href="" title="lorem ipsum">Salzer Selector Switch</a></li>
+                                            <li><a href="#" title="lorem ipsum">Salzer Relay</a></li>
+                                            
 
                                         </ul>
                                     </li>
 
                                     <li class="ls-submenu">
-                                        <a href="#" title="ESD Tester">Magnifying Lamp
+                                        <a href="#" title="ESD Tester">Amphenol FCI
 
 
                                         </a>
                                         <ul class="ls-dropdown">
-                                            <li><a href="" title="lorem ipsum">5X</a></li>
-                                            <li><a href="#" title="lorem ipsum">10X</a></li>
-                                            <li><a href="" title="lorem ipsum">20X</a></li>
+                                            <li><a href="" title="lorem ipsum">Fiber Optic Patch Cord</a></li>
+                                            <li><a href="#" title="lorem ipsum">Fci Connectors</a></li>
+                                            
                                         </ul>
                                     </li>
 
                                     <li class="ls-submenu">
-                                        <a href="#" title="BGA Rework Station">BGA Rework Station
+                                        <a href="#" title="Meanwell">Elmex
 
 
                                         </a>
                                         <ul class="ls-dropdown">
-                                            <li><a href="category.php" title="lorem ipsum">R 5860</a></li>
-                                            <li><a href="#" title="lorem ipsum">R 6860</a></li>
+                                            <li><a href="#" title="lorem ipsum">Elmax Connector</a></li>
+                                            <li><a href="#" title="lorem ipsum">Elmex Terminal Block</a></li>
+                                            <li><a href="#" title="lorem ipsum">Fuse Terminal Block</a></li>
+
+                                        </ul>
+                                    </li>
+                                    <li class="ls-submenu">
+                                        <a href="#" title="Meanwell">Schneider
+
+
+                                        </a>
+                                        <ul class="ls-dropdown">
+                                            <li><a href="#" title="lorem ipsum">Smart Meter</a></li>
+                                            <li><a href="#" title="lorem ipsum">MCCB</a></li>
+                                            <li><a href="#" title="lorem ipsum">APC UPS</a></li>
+
+                                               <li><a href="#" title="lorem ipsum">MCB Schneider</a></li>
+                                            <li><a href="#" title="lorem ipsum">Switchgear</a></li>
+                                            <li><a href="#" title="lorem ipsum">Schneider Relay</a></li>
+                                               <li><a href="#" title="lorem ipsum">Latching Relay Schneider</a></li>
+                                            <li><a href="#" title="lorem ipsum">Power Contactor</a></li>
+                                            <li><a href="#" title="lorem ipsum">Electrical Contactor</a></li>
+
+                                            <li><a href="#" title="lorem ipsum">Schneider Contactor</a></li>
+                                            <li><a href="#" title="lorem ipsum">L And T Contactor</a></li>
+                                            <li><a href="#" title="lorem ipsum">Siemens Contactor</a></li>
                                         </ul>
                                     </li>
 
 
                                     <li class="ls-submenu">
-                                        <a href="#" title="BGA Rework Station">BGA Rework Station
+                                        <a href="#" title="Selec">Mecoinst
 
 
                                         </a>
                                         <ul class="ls-dropdown">
-                                            <li><a href="category.php" title="lorem ipsum">R 5860</a></li>
-                                            <li><a href="#" title="lorem ipsum">R 6860</a></li>
+                                            <li><a href="category.php" title="lorem ipsum">Clamp Meter</a></li>
+                                            <li><a href="#" title="lorem ipsum">Digital Multimeter</a></li>
+                                            <li><a href="category.php" title="lorem ipsum">Meco Instruments</a></li>
+                                            <li><a href="#" title="lorem ipsum">Meco Multimeter</a></li>
+                                            <li><a href="category.php" title="lorem ipsum">Earth Tester</a></li>
+                                            <li><a href="#" title="lorem ipsum">Digital Clamp Meter</a></li>
+                                            <li><a href="#" title="lorem ipsum">Meco Ac Dc Clamp Meter</a></li>
+
                                         </ul>
                                     </li>
 
 
                                     <li class="ls-submenu">
-                                        <a href="#" title="BGA Rework Station">BGA Rework Station
-
+                                        <a href="#" title="Woer">Kusam 
 
                                         </a>
                                         <ul class="ls-dropdown">
-                                            <li><a href="category.php" title="lorem ipsum">R 5860</a></li>
-                                            <li><a href="#" title="lorem ipsum">R 6860</a></li>
+                                            <li><a href="category.php" title="lorem ipsum">Kusam Meco</a></li>
+                                            <li><a href="#" title="lorem ipsum">Kusam Meco Clamp Meter</a></li>
+                                             <li><a href="category.php" title="lorem ipsum">Lux Meter</a></li>
+                                            <li><a href="#" title="lorem ipsum">Kusam Meco Multimeter</a></li>
+                                             <li><a href="category.php" title="lorem ipsum">Phase Sequence Meter</a></li>
+                                            
                                         </ul>
                                     </li>
 
-                                     <li class="ls-dropdown">
-                                        <a href="#" title="lorem">ESD Chair</a>
-
-                                    </li>
-
-
-
-
-
-                                    <li class="ls-dropdown">
-                                        <a href="#" title="lorem">Peelable Solder Mask</a>
-
-                                    </li>
-
-                                    <li class="ls-dropdown">
-                                        <a href="#" title="lorem">Stencil Cleaning Rolls
-                                        </a>
-
-                                    </li>
-
-                                    <li class="ls-dropdown">
-                                        <a href="#" title="lorem">PCB Trolley
-                                        </a>
-
-                                    </li>
-
-
-                                    <li class="ls-dropdown">
-                                        <a href="#" title="lorem">Pneumatic Screw Driver Drebon
-                                        </a>
-
-                                    </li>
-
-                                    <li class="ls-dropdown">
-                                        <a href="#" title="lorem">Magnifying Lamp
+                                      <li class="ls-submenu">
+                                        <a href="#" title="Woer">Rexnord
 
                                         </a>
+                                        <ul class="ls-dropdown">
+                                            <li><a href="category.php" title="lorem ipsum">Rexnord Fan</a></li>
+                                            <li><a href="#" title="lorem ipsum">Rexnord Cooling Fan</a></li>
+                                        </ul>
+                                    </li>
 
+                                     <li class="ls-submenu">
+                                        <a href="#" title="Woer">Soldron
+
+                                        </a>
+                                        <ul class="ls-dropdown">
+                                            <li><a href="category.php" title="lorem ipsum">Soldron Soldering Iron</a></li>
+                                            <li><a href="#" title="lorem ipsum">Micro Soldering Station</a></li>
+                                            <li><a href="#" title="lorem ipsum">Soldering Machine</a></li>
+
+                                        </ul>
                                     </li>
 
 
 
 
 
+                                  
 
-
-
-
+                                    
 
 
 

@@ -18,13 +18,13 @@
     <main>
 
         <!-- ===== Breadcrumb Hero (bc01) ==Speed Bath Tech=== -->
-       <div class="img-breadcum">
-      <div class="container">
-        <img src="https://media.istockphoto.com/id/1006169700/photo/repairman-checking-voltage-with-digital-multimeter.jpg?s=612x612&w=0&k=20&c=XsSFNl68i6oTtSQQNo3K2Zur2TGuS5CZL233pSZa4rE=" title="About Us" alt="About Us" />
-        <div class="sub-tt">ESD Products and SMT Consumables Supplier in India</div>
-        <div class="tt">ESD Products supplier in India</div>
-      </div>
-    </div>
+        <div class="img-breadcum">
+            <div class="container">
+                <img src="https://media.istockphoto.com/id/2217250788/photo/ai-agent-and-generative-artificial-intelligence-concept-businessman-using-ai-agents-on-screen.jpg?s=612x612&w=0&k=20&c=77b8C5pC-41mlBMuLRK7EQwTIiVbAIaTXYOgMXwdYDU=" title="About Us" alt="About Us" />
+                <div class="sub-tt">SS Electronics in India</div>
+                <div class="tt">SS Electronics in India</div>
+            </div>
+        </div>
 
         <div class="breadcum-sec">
             <div class="container">
@@ -118,7 +118,7 @@
                         <a href="#Loream/" title="Loream" class="marketcard">
                             Loream </a>
                     </div>
-                   
+
                 </div>
                 <h2>Cities of Loream</h2>
                 <div class="row g-2 row-cols-2 row-cols-md-4 row-cols-lg-5">
@@ -126,7 +126,7 @@
                         <a href="#Loream/" title="Loream" class="marketcard">
                             Loream </a>
                     </div>
-                  
+
                     <div class="col">
                         <a href="#Loream/" title="Loream" class="marketcard">
                             Loream </a>
@@ -142,7 +142,7 @@
                         <a href="#Loream/" title="Loream" class="marketcard">
                             Loream </a>
                     </div>
-                  
+
                     <div class="col">
                         <a href="#Loream/" title="Loream" class="marketcard">
                             Loream </a>
@@ -166,7 +166,7 @@
                         <a href="#Loream/" title="Loream" class="marketcard">
                             Loream </a>
                     </div>
-                 
+
                     <div class="col">
                         <a href="#Loream/" title="Loream" class="marketcard">
                             Loream </a>
@@ -190,7 +190,7 @@
                         <a href="#Loream/" title="Loream" class="marketcard">
                             Loream </a>
                     </div>
-            
+
                 </div>
                 <h2>Cities of Loream Loream</h2>
                 <div class="row g-2 row-cols-2 row-cols-md-4 row-cols-lg-5">
@@ -206,7 +206,7 @@
                         <a href="#Loream/" title="Loream" class="marketcard">
                             Loream </a>
                     </div>
-               
+
                     <div class="col">
                         <a href="#Loream/" title="Loream" class="marketcard">
                             Loream </a>
@@ -222,7 +222,7 @@
                         <a href="#Loream/" title="Loream" class="marketcard">
                             Loream </a>
                     </div>
-                
+
                     <div class="col">
                         <a href="#Loream/" title="Loream" class="marketcard">
                             Loream </a>
@@ -242,7 +242,7 @@
                         <a href="#Loream/" title="Loream" class="marketcard">
                             Loream </a>
                     </div>
-                   
+
                     <div class="col">
                         <a href="#Loream/" title="Loream" class="marketcard">
                             Loream </a>

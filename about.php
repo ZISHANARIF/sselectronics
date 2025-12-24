@@ -19,9 +19,9 @@
     <!-- ===== Breadcrumb Hero (bc01) ===== -->
     <div class="img-breadcum">
       <div class="container">
-        <img src="https://media.istockphoto.com/id/1006169700/photo/repairman-checking-voltage-with-digital-multimeter.jpg?s=612x612&w=0&k=20&c=XsSFNl68i6oTtSQQNo3K2Zur2TGuS5CZL233pSZa4rE=" title="About Us" alt="About Us" />
-        <div class="sub-tt">ESD Products and SMT Consumables Supplier in India</div>
-        <div class="tt">ESD Products supplier in India</div>
+        <img src="https://media.istockphoto.com/id/2217250788/photo/ai-agent-and-generative-artificial-intelligence-concept-businessman-using-ai-agents-on-screen.jpg?s=612x612&w=0&k=20&c=77b8C5pC-41mlBMuLRK7EQwTIiVbAIaTXYOgMXwdYDU=" title="About Us" alt="About Us" />
+        <div class="sub-tt">SS Electronics in India</div>
+        <div class="tt">SS Electronics in India</div>
       </div>
     </div>
     <div class="breadcum-sec">
@@ -34,55 +34,63 @@
     </div>
 
 
-    <section class="leadsure aboutsection">
+       <section class="about-section leadsure">
+            <div class="container">
+                <div class="row align-items-center g-2 g-md-5">
 
-      <div class="container">
-
-        <div class="row align-items-center g-2 g-md-4 wow fadeInLeft animated" data-wow-delay=".1s">
-         
-          <div class="col-lg-6">
-             <div class="eyebrow-section">About Us</div>
-            <div class="leadseo">
+                    <div class="col-lg-6 wow fadeInLeft" data-wow-delay=".2s">
+                        <div class="eyebrow-section">
+                            <p>Who Are We</p>
 
 
-              <h1>ESD Products – Static Protection You Can Trust</h1>
-              <p>As a Leading <strong>ESD Products and SMT Consumables Supplier in India</strong>, we have built a strong reputation for quality, safety, and performance in the electronics manufacturing industry. Every ESD product and SMT consumable we supply is designed to protect sensitive components and maintain consistent production efficiency across industries in India.</p>
+                        </div>
 
-              <p>Our solutions are focused on precision and reliability — each product is tested for static control, durability, and long-term performance. Built with advanced materials and strict quality standards, our ESD and SMT products ensure safe and uninterrupted electronic assembly operations.</p>
+                        <div class="leadsureheading">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                        </div>
 
-              <h2>Why choose our ESD Products & SMT Consumables:-</h2>
+                        <p class="leadsurepara">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae justo sit amet nibh cursus tincidunt. Donec feugiat, nunc id bibendum gravida, lorem arcu facilisis metus, ac hendrerit elit neque id lorem. Integer sit amet risus vel massa dictum laoreet. Mauris malesuada, urna eu aliquam suscipit, ipsum nulla pretium justo, vel viverra felis elit non nisl.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae justo sit amet nibh cursus tincidunt. Donec feugiat
+                        </p>
 
+                        <ul class="about-list">
+                            <li>
+                                <i class="fa-solid fa-circle-check list-icon"></i>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-check list-icon"></i>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-check list-icon"></i>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-check list-icon"></i>
+                                Lorem Ipsum has been the ndustry standard dummy text
+                            </li>
+                        </ul>
 
-              <p>As Trusted <strong>Soldering Equipment and Measuring Equipment Suppliers in India</strong>, we ensure consistent quality, accurate performance, and nationwide availability. Our soldering systems and measuring instruments are built for precision, stability, and continuous industrial and laboratory use.</p>
+                        <a href="#" class="main-btn">
+                            Read More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708" />
+                                <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708" />
+                            </svg>
+                        </a>
+                    </div>
 
-              <p>Our range is suitable for all environments — from electronics manufacturing units and R&D labs to service centers and production floors — delivering dependable performance and accurate results every day.</p>
-              <p>As Trusted <strong>Soldering Equipment and Measuring Equipment Suppliers in India</strong>, we ensure consistent quality, accurate performance, and nationwide availability. Our soldering systems and measuring instruments are built for precision, stability, and continuous industrial and laboratory use.</p>
+                    <div class="col-lg-6 wow fadeInRight" data-wow-delay=".2s">
+                        <div class="about-image-container">
+                            <img src="https://media.istockphoto.com/id/2217250788/photo/ai-agent-and-generative-artificial-intelligence-concept-businessman-using-ai-agents-on-screen.jpg?s=612x612&w=0&k=20&c=77b8C5pC-41mlBMuLRK7EQwTIiVbAIaTXYOgMXwdYDU=" alt="Industrial Manufacturing" class="about-image img-fluid">
+                        </div>
+                    </div>
 
-
-
+                </div>
             </div>
+        </section>
 
-          </div>
-
-
-
-          <div class="col-lg-6 wow fadeInRight animated" data-wow-delay=".2s">
-
-            <div class=" hero-about-image">
-
-              <img src="https://media.istockphoto.com/id/477473902/photo/tea-plantations.jpg?s=612x612&w=0&k=20&c=6V4oFEe4iqofERaro5Ivw4O-8tZVtxIUOOpZiIhUBlk=" alt="Ultra Touch" title="Ultra Touch">
-
-            </div>
-
-          </div>
-
-
-
-        </div>
-
-      </div>
-
-    </section>
 
 
     <!-- *******************why choose us section code************* -->
@@ -99,7 +107,7 @@
 
 
 
-          <div class="col-lg-6">
+          <div class="col-lg-6 wow fadeInLeft" data-wow-delay=".2s">
 
             <div class="image-wrapperA">
 
@@ -111,13 +119,13 @@
 
 
 
-          <div class="col-lg-6">
+          <div class="col-lg-6 wow fadeInRight" data-wow-delay=".2s">
 
             <div class="text-contentA">
 
-              <div class="eyebrow-section text-light">Why Choose Us </div>
+              <div class="eyebrow-section "><p>Why Choose Us</p> </div>
 
-              <div class="faq-title text-light">ESD Products – Static Protection You Can Trust</div>
+              <div class="faq-title text-light">Lorem ipsum dolor sit amet, consectetur</div>
 
 
 
@@ -242,112 +250,97 @@
 
 
 
-    <!-- ****************mission vision section code**************************** -->
-    <div class="Mission-section leadsure">
-      <div class="container">
-        <div class="text-center wow fadeInUp animated" data-wow-delay=".1s">
-          <div class="eyebrow-section">Mission And vision</div>
-          <div class="section-title">Our Mission <span class="colordhead">And Vision</span> </div>
-        </div>
+  
 
-        <div class="row">
 
-          <div class="col-lg-12">
-            <section class="mission_vision">
 
-              <div class="mission_vision_item">
-                <div class="mission_vision_left">
-                  <div class="icon">
-                    <img src="./designer/images/mission1.svg" alt="service">
-                  </div>
-                  <div class="leadsuresubheading">Business Solution</div>
+
+
+
+    <!--****************** FAQ section code****************** -->
+
+
+    
+        <section class="faq-section leadsure">
+            <div class="container">
+                <div class="text-center wow fadeInUp animated" data-wow-delay=".2s">
+
+                    <div class="eyebrow-section">
+                        <p>faq</p>
+
+
+                    </div>
+
+                    <div class="section-title">Frequently Asked<span class="colordhead"> questions</span> </div>
+
                 </div>
-                <div class="mission_vision_right">
-                  <p class="leadsurepara">
-                    comprehensive set of strategies, tools, technologies, and processes challenges,
-                    optimize operations, and drive business growth.
-                  </p>
-                  <a href="#" class="arrow">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                      <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
-                    </svg>
-                  </a>
+                <div class="row g-0">
+
+                   
+
+                    <div class="col-lg-12 content-col">
+
+
+                        <div class="accordion custom-accordion" id="faqAccordion">
+
+                            <div class="accordion-item">
+                                <div class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Lorem ipsum dolor sit amet consectetur adipiscing elit.
+                                    </button>
+                                </div>
+                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Lorem Suspendisse finibus urna mauris, vitae consequat quam blandit vel. Vestibulum leo ligula, molestie ullamcorper vulputate vitae, sodales commodo nisl. Nulla facilisi. Pellentesque est metus. There are many variations of passages.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <div class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Lorem ipsum dolor sit amet consectetur adipiscing elit.
+                                    </button>
+                                </div>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Lorem ipsum dolor sit amet consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <div class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        Lorem ipsum dolor sit amet consectetur adipiscing elit.
+                                    </button>
+                                </div>
+                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <div class="accordion-header" id="headingfour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                                        Lorem ipsum dolor sit amet consectetur adipiscing elit.
+                                    </button>
+                                </div>
+                                <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
                 </div>
-              </div>
-
-              <div class="mission_vision_item">
-                <div class="mission_vision_left">
-                  <div class="icon">
-                    <img src="./designer/images/mission2.svg" alt="service">
-                  </div>
-                  <div class="leadsuresubheading">Creative Ideas</div>
-                </div>
-                <div class="mission_vision_right">
-                  <p class="leadsurepara">
-                    comprehensive set of strategies, tools, technologies, and processes challenges,
-                    optimize operations, and drive business growth.
-                  </p>
-                  <a href="#" class="arrow">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                      <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
-                    </svg>
-                  </a>
-                </div>
-              </div>
-
-              <div class="mission_vision_item">
-                <div class="mission_vision_left">
-                  <div class="icon">
-                    <img src="./designer/images/mission3.svg" alt="service">
-                  </div>
-                  <div class="leadsuresubheading">Market Research</div>
-                </div>
-                <div class="mission_vision_right">
-                  <p class="leadsurepara">
-                    comprehensive set of strategies, tools, technologies, and processes challenges,
-                    optimize operations, and drive business growth.
-                  </p>
-                  <a href="#" class="arrow">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                      <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
-                    </svg>
-                  </a>
-                </div>
-              </div>
-
-              <div class="mission_vision_item">
-                <div class="mission_vision_left">
-                  <div class="icon">
-                    <img src="./designer/images/mission4.svg" alt="service">
-                  </div>
-                  <div class="leadsuresubheading">Technology Solution</div>
-                </div>
-                <div class="mission_vision_right">
-                  <p class="leadsurepara">
-                    comprehensive set of strategies, tools, technologies, and processes challenges,
-                    optimize operations, and drive business growth.
-                  </p>
-                  <a href="#" class="arrow">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                      <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
-                    </svg>
-                  </a>
-                </div>
-              </div>
-
-            </section>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-
-
-
-
-
-    <!--****************** insta section code****************** -->
+            </div>
+        </section>
 
 
   </main>

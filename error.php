@@ -18,12 +18,12 @@
     <main>
         <!-- ===== Breadcrumb Hero (bc01) ===== -->
        <div class="img-breadcum">
-            <div class="container">
-                <img src="https://media.istockphoto.com/id/1006169700/photo/repairman-checking-voltage-with-digital-multimeter.jpg?s=612x612&w=0&k=20&c=XsSFNl68i6oTtSQQNo3K2Zur2TGuS5CZL233pSZa4rE=" title="About Us" alt="About Us" />
-                <div class="sub-tt">ESD Products and SMT Consumables Supplier in India</div>
-                <div class="tt">ESD Products supplier in India</div>
-            </div>
-        </div>
+      <div class="container">
+        <img src="https://media.istockphoto.com/id/2217250788/photo/ai-agent-and-generative-artificial-intelligence-concept-businessman-using-ai-agents-on-screen.jpg?s=612x612&w=0&k=20&c=77b8C5pC-41mlBMuLRK7EQwTIiVbAIaTXYOgMXwdYDU=" title="About Us" alt="About Us" />
+        <div class="sub-tt">SS Electronics in India</div>
+        <div class="tt">SS Electronics in India</div>
+      </div>
+    </div>
         <div class="breadcum-sec">
             <div class="container">
                 <ul>

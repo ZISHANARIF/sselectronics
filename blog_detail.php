@@ -19,12 +19,12 @@
 
         <!-- ===== Breadcrumb Hero (bc01) ===== -->
         <div class="img-breadcum">
-            <div class="container">
-                <img src="https://media.istockphoto.com/id/1006169700/photo/repairman-checking-voltage-with-digital-multimeter.jpg?s=612x612&w=0&k=20&c=XsSFNl68i6oTtSQQNo3K2Zur2TGuS5CZL233pSZa4rE=" title="About Us" alt="About Us" />
-                <div class="sub-tt">ESD Products and SMT Consumables Supplier in India</div>
-                <div class="tt">ESD Products supplier in India</div>
-            </div>
-        </div>
+      <div class="container">
+        <img src="https://media.istockphoto.com/id/2217250788/photo/ai-agent-and-generative-artificial-intelligence-concept-businessman-using-ai-agents-on-screen.jpg?s=612x612&w=0&k=20&c=77b8C5pC-41mlBMuLRK7EQwTIiVbAIaTXYOgMXwdYDU=" title="About Us" alt="About Us" />
+        <div class="sub-tt">SS Electronics in India</div>
+        <div class="tt">SS Electronics in India</div>
+      </div>
+    </div>
         <div class="breadcum-sec">
             <div class="container">
                 <ul>
@@ -98,38 +98,58 @@
 
                             </div>
                             <div class="blog-body105 leadseo">
-                                <h1>ESD Products – Static Protection You Can Trust</h1>
-                                <p>As a Leading <strong>ESD Products and SMT Consumables Supplier in India</strong>, we have built a strong reputation for quality, safety, and performance in the electronics manufacturing industry. Every ESD product and SMT consumable we supply is designed to protect sensitive components and maintain consistent production efficiency across industries in India.</p>
+                                <h1>Lorem Ipsum Dolor Sit Amet</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tristique justo vel augue viverra, non placerat ipsum viverra. Etiam non felis a magna tristique volutpat. Cras imperdiet lectus non varius posuere. Suspendisse potenti. Mauris nec lorem sed libero dignissim commodo.</p>
 
-                                <p>Our solutions are focused on precision and reliability — each product is tested for static control, durability, and long-term performance. Built with advanced materials and strict quality standards, our ESD and SMT products ensure safe and uninterrupted electronic assembly operations.</p>
+<h2>Why Lorem Ipsum Is Widely Used</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet arcu nec odio pretium pharetra. Nullam hendrerit, elit non tempus gravida, urna tortor laoreet arcu, vel tristique velit lectus in lectus.</p>
 
-                                <h2>Why choose our ESD Products & SMT Consumables:-</h2>
+<ul>
+    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+    <li>Vivamus aliquet orci vel velit elementum, id facilisis arcu aliquet.</li>
+    <li>Quisque vel metus non est finibus consectetur.</li>
+    <li>Donec tristique elit eget orci ullamcorper varius.</li>
+</ul>
+
+<h3>Key Highlights of Lorem Ipsum</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent auctor magna at dui eleifend viverra. Curabitur id turpis vitae neque hendrerit dictum. Integer porttitor ligula a augue eleifend bibendum. Nam laoreet egestas magna in pretium.</p>
+
+<ul>
+    <li>Easy to use as placeholder content</li>
+    <li>Maintains design layout integrity</li>
+    <li>Used by designers, developers, and marketers</li>
+    <li>Works well across print and digital media</li>
+</ul>
+
+<h2>Conclusion</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non lectus vel nisl tempor euismod. Praesent placerat sapien et ligula tincidunt, nec convallis augue vehicula. Nullam in sem vitae nisi pulvinar gravida id id risus.</p>
 
 
-                                <p>As Trusted <strong>Soldering Equipment and Measuring Equipment Suppliers in India</strong>, we ensure consistent quality, accurate performance, and nationwide availability. Our soldering systems and measuring instruments are built for precision, stability, and continuous industrial and laboratory use.</p>
+<h1>Lorem Ipsum Dolor Sit Amet</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tristique justo vel augue viverra, non placerat ipsum viverra. Etiam non felis a magna tristique volutpat. Cras imperdiet lectus non varius posuere. Suspendisse potenti. Mauris nec lorem sed libero dignissim commodo.</p>
 
-                                <p>Our range is suitable for all environments — from electronics manufacturing units and R&D labs to service centers and production floors — delivering dependable performance and accurate results every day.</p>
-                                <p>As Trusted <strong>Soldering Equipment and Measuring Equipment Suppliers in India</strong>, we ensure consistent quality, accurate performance, and nationwide availability. Our soldering systems and measuring instruments are built for precision, stability, and continuous industrial and laboratory use.</p>
+<h2>Why Lorem Ipsum Is Widely Used</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet arcu nec odio pretium pharetra. Nullam hendrerit, elit non tempus gravida, urna tortor laoreet arcu, vel tristique velit lectus in lectus.</p>
 
+<ul>
+    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+    <li>Vivamus aliquet orci vel velit elementum, id facilisis arcu aliquet.</li>
+    <li>Quisque vel metus non est finibus consectetur.</li>
+    <li>Donec tristique elit eget orci ullamcorper varius.</li>
+</ul>
 
+<h3>Key Highlights of Lorem Ipsum</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent auctor magna at dui eleifend viverra. Curabitur id turpis vitae neque hendrerit dictum. Integer porttitor ligula a augue eleifend bibendum. Nam laoreet egestas magna in pretium.</p>
 
-                                <h1>ESD Products – Static Protection You Can Trust</h1>
-                                <p>As a Leading <strong>ESD Products and SMT Consumables Supplier in India</strong>, we have built a strong reputation for quality, safety, and performance in the electronics manufacturing industry. Every ESD product and SMT consumable we supply is designed to protect sensitive components and maintain consistent production efficiency across industries in India.</p>
+<ul>
+    <li>Easy to use as placeholder content</li>
+    <li>Maintains design layout integrity</li>
+    <li>Used by designers, developers, and marketers</li>
+    <li>Works well across print and digital media</li>
+</ul>
 
-                                <p>Our solutions are focused on precision and reliability — each product is tested for static control, durability, and long-term performance. Built with advanced materials and strict quality standards, our ESD and SMT products ensure safe and uninterrupted electronic assembly operations.</p>
-
-                                <h2>Why choose our ESD Products & SMT Consumables:-</h2>
-
-
-                                <p>As Trusted <strong>Soldering Equipment and Measuring Equipment Suppliers in India</strong>, we ensure consistent quality, accurate performance, and nationwide availability. Our soldering systems and measuring instruments are built for precision, stability, and continuous industrial and laboratory use.</p>
-
-                                <p>Our range is suitable for all environments — from electronics manufacturing units and R&D labs to service centers and production floors — delivering dependable performance and accurate results every day.</p>
-                                <p>As Trusted <strong>Soldering Equipment and Measuring Equipment Suppliers in India</strong>, we ensure consistent quality, accurate performance, and nationwide availability. Our soldering systems and measuring instruments are built for precision, stability, and continuous industrial and laboratory use.</p>
-
-                                <h1>ESD Products – Static Protection You Can Trust</h1>
-                                <p>As a Leading <strong>ESD Products and SMT Consumables Supplier in India</strong>, we have built a strong reputation for quality, safety, and performance in the electronics manufacturing industry. Every ESD product and SMT consumable we supply is designed to protect sensitive components and maintain consistent production efficiency across industries in India.</p>
-
-                                <p>Our solutions are focused on precision and reliability — each product is tested for static control, durability, and long-term performance. Built with advanced materials and strict quality standards, our ESD and SMT products ensure safe and uninterrupted electronic assembly operations.</p>
+<h2>Conclusion</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non lectus vel nisl tempor euismod. Praesent placerat sapien et ligula tincidunt, nec convallis augue vehicula. Nullam in sem vitae nisi pulvinar gravida id id risus.</p>
 
 
 
@@ -138,7 +158,7 @@
                     </div>
 
                     <div class="col-lg-4">
-                        <aside class="sidebar105 wow fadeInUp" data-wow-delay=".2s">
+                        <aside class="sidebar105 mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".2s">
                             <div class="widget105">
                                 <div class="widget-title105">Related Blogs</div>
                                 <ul class="related-blogs-list105">
@@ -216,67 +236,6 @@
                         </aside>
 
 
-                        <aside class="sidebar105 mt-5 wow fadeInRight" data-wow-delay=".2s">
-                            <div class="widget105">
-
-                                <div class="contact-form">
-                                    <form action="#" method="POST">
-                                        <div class="row g-4">
-
-                                            <!-- Full Name -->
-                                            <div class="col-md-12">
-                                                <label for="full-name" class="form-label">Full Name <span class="red">*</span></label>
-                                                <input type="text" class="form-control" id="full-name" placeholder="Full Name">
-                                            </div>
-
-                                            <!-- Email Address -->
-                                            <div class="col-md-12">
-                                                <label for="email" class="form-label">Email Address</label>
-                                                <input type="email" class="form-control" id="email" placeholder="Email Address">
-                                            </div>
-
-                                            <!-- Phone Number (with Country Code Plugin) -->
-                                            <div class="col-md-12">
-                                                <label for="phone-number" class="form-label">Phone Number <span class="red">*</span></label>
-                                                <div class="phone-wrapper">
-                                                    <input type="hidden" name="countryCode" value="">
-                                                    <input type="hidden" name="countryCodeWithName" value="">
-
-                                                    <input type="tel" class="form-control  telePhone" name="mobile" placeholder="Mobile Number" onkeyup="this.value=this.value.replace(/[^0-9]/g,'')" minlength="9" maxlength="13" required="" autocomplete="off">
-                                                </div>
-                                            </div>
-
-
-                                          
-
-                                            <!-- Message -->
-                                            <div class="col-12">
-                                                <label for="message" class="form-label">Message</label>
-                                                <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
-                                            </div>
-
-                                              <div class="col-md-12">
-                                                <div class="form-group mb-0">
-
-
-
-                                                    <div class="g-recaptcha" data-sitekey="6LesU8grAAAAAHh_Q_9-MR9GVAcEnfTbtlCr1gV-"></div>
-
-
-
-                                                </div>
-                                            </div>
-
-                                            <!-- Submit Button -->
-                                            <div class="col-12 text-end mt-5">
-                                                <button type="submit" class="main-btn">Send Enquiry</button>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-
-                            </div>
-                        </aside>
                     </div>
 
                 </div>

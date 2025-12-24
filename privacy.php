@@ -19,12 +19,12 @@
 
         <!-- ===== Breadcrumb Hero (bc01) ===== -->
         <div class="img-breadcum">
-            <div class="container">
-                <img src="https://media.istockphoto.com/id/1006169700/photo/repairman-checking-voltage-with-digital-multimeter.jpg?s=612x612&w=0&k=20&c=XsSFNl68i6oTtSQQNo3K2Zur2TGuS5CZL233pSZa4rE=" title="About Us" alt="About Us" />
-                <div class="sub-tt">ESD Products and SMT Consumables Supplier in India</div>
-                <div class="tt">ESD Products supplier in India</div>
-            </div>
-        </div>
+      <div class="container">
+        <img src="https://media.istockphoto.com/id/2217250788/photo/ai-agent-and-generative-artificial-intelligence-concept-businessman-using-ai-agents-on-screen.jpg?s=612x612&w=0&k=20&c=77b8C5pC-41mlBMuLRK7EQwTIiVbAIaTXYOgMXwdYDU=" title="About Us" alt="About Us" />
+        <div class="sub-tt">SS Electronics in India</div>
+        <div class="tt">SS Electronics in India</div>
+      </div>
+    </div>
         <div class="breadcum-sec">
             <div class="container">
                 <ul>
@@ -40,9 +40,9 @@
 
                 <h1>Privacy Policy For Lorem Ipsum Company</h1>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Lorem Ipsum Company</strong> accessed via <span class="colordhead">“https://example.com/”</span> collects certain information when you interact with our website. This privacy policy explains how we manage that data.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Lorem Ipsum Company</strong> accessed via “https://example.com/” collects certain information when you interact with our website. This privacy policy explains how we manage that data.</p>
 
-                <p>This statement applies to <strong>Lorem Ipsum Company</strong> and its subdomains including “<span class="colordhead">https://example.com/”</span>. Our websites may include links to third-party websites which have their own privacy policies. We are not responsible for data collected on those sites.</p>
+                <p>This statement applies to <strong>Lorem Ipsum Company</strong> and its subdomains including “https://example.com/” Our websites may include links to third-party websites which have their own privacy policies. We are not responsible for data collected on those sites.</p>
 
                 <h2>Definitions</h2>
                 <ul>
